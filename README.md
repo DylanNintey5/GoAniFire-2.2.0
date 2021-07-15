@@ -1,5 +1,5 @@
 # GoAniFire
-The revival old version of the legacy videomaker of AniFire.
+The revival of the legacy videomaker of AniFire.
 
 ## Running / Installation
 To start GoAniFire on Windows, open start_wrapper.bat. It'll automate just about everything for you and, well, start GoAniFire. On your first run, you will likely need to right-click it and click "Run as Administrator". This allows it to properly install what it needs to run. After your initial run, you shouldn't need to do that again, you can start it as normal.
