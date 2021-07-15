@@ -718,6 +718,7 @@ if !CEPSTRAL!==n (
 pushd utilities
 if !VERBOSEWRAPPER!==y (
 	if !DRYRUN!==n ( start /MIN open_http-server.bat )
+	if !DRYRUN!==n ( start /MIN open_http-server2.bat )
 	if !DRYRUN!==n ( start /MIN open_nodejs.bat )
 	if !DRYRUN!==n ( 
 		if !CEPSTRAL!==n ( 
@@ -726,6 +727,7 @@ if !VERBOSEWRAPPER!==y (
 	)
 ) else (
 	if !DRYRUN!==n ( start SilentCMD open_http-server.bat )
+	if !DRYRUN!==n ( start SilentCMD open_http-server2.bat )
 	if !DRYRUN!==n ( start SilentCMD open_nodejs.bat )
 	if !DRYRUN!==n ( 
 		if !CEPSTRAL!==n (
@@ -743,19 +745,19 @@ PING -n 6 127.0.0.1>nul
 if !INCLUDEDCHROMIUM!==n (
 	if !CUSTOMBROWSER!==n (
 		echo Opening Wrapper: Offline in your default browser...
-		if !DRYRUN!==n ( start http://localhost:4343 )
+		if !DRYRUN!==n ( start http://localhost:4664 )
 	) else (
 		echo Opening Wrapper: Offline in your set browser...
 		echo If this does not work, you may have set the path wrong.
-		if !DRYRUN!==n ( start !CUSTOMBROWSER! http://localhost:4343 )
+		if !DRYRUN!==n ( start !CUSTOMBROWSER! http://localhost:4664 )
 	)
 ) else (
 	echo Opening Wrapper: Offline using included Chromium...
 	pushd utilities\ungoogled-chromium
 	if !APPCHROMIUM!==y (
-		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4343 )
+		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4664 )
 	) else (
-		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4343 )
+		if !DRYRUN!==n ( start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4664 )
 	)
 	popd
 )
@@ -832,15 +834,15 @@ if !INCLUDEDCHROMIUM!==n (
 		start http://localhost:4343
 	) else (
 		echo Opening Wrapper: Offline in your set browser...
-		start !CUSTOMBROWSER! http://localhost:4343 >nul
+		start !CUSTOMBROWSER! http://localhost:4664 >nul
 	)
 ) else (
 	echo Opening Wrapper: Offline using included Chromium...
 	pushd utilities\ungoogled-chromium
 	if !APPCHROMIUM!==y (
-		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4343 >nul
+		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile --app=http://localhost:4664 >nul
 	) else (
-		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4343 >nul
+		start chrome.exe --allow-outdated-plugins --user-data-dir=the_profile http://localhost:4664 >nul
 	)
 	popd
 )
