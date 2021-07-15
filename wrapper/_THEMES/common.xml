@@ -202,6 +202,32 @@
 	<background id="ncc_pirateship01_bg.swf" name="Ship's side" enable="Y" default="N" is_premium="N" aid="12432" money="0" sharing="0" />
 	<background id="ncc_pirateship01_deck.swf" name="Ship's deck" enable="Y" default="N" is_premium="N" aid="12433" money="0" sharing="0" />
 	<background id="16_9.swf" name="16-9" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0" />
+	<background id="rw_checkpoint_bg.swf" name="Checkpoint" enable="N" default="N" is_premium="N" aid="12540" money="0" sharing="0"/>
+	<background id="rw_sky03_bg.swf" name="Skyline - Panning Right" enable="N" default="N" is_premium="N" aid="12551" money="0" sharing="0"/>
+	<background id="rw_sky02_bg.swf" name="Skyline" enable="N" default="N" is_premium="N" aid="12550" money="0" sharing="0"/>
+	<background id="rw_sky01_bg.swf" name="Skyline - Panning Left" enable="N" default="N" is_premium="N" aid="12549" money="0" sharing="0"/>
+	<background id="rw_river03_bg.swf" name="River - Panning Left" enable="N" default="N" is_premium="N" aid="12548" money="0" sharing="0"/>
+	<background id="rw_river02_bg.swf" name="River" enable="N" default="N" is_premium="N" aid="12547" money="0" sharing="0"/>
+	<background id="rw_river01_bg.swf" name="River - Panning Right" enable="N" default="N" is_premium="N" aid="12546" money="0" sharing="0"/>
+	<background id="rw_landing02_bg.swf" name="Grassland - Helicopter landing" enable="Y" default="N" is_premium="N" aid="12545" money="0" sharing="0"/>
+	<background id="rw_landing01_bg.swf" name="Grassland" enable="Y" default="Y" is_premium="N" aid="12544" money="0" sharing="0"/>
+	<background id="rw_forest04_bg.swf" name="Forest - Panning Right" enable="N" default="N" is_premium="N" aid="12543" money="0" sharing="0"/>
+	<background id="rw_forest03_bg.swf" name="Forest - Panning Left" enable="N" default="N" is_premium="N" aid="12542" money="0" sharing="0"/>
+	<background id="rw_forest02_bg.swf" name="Forest" enable="N" default="N" is_premium="N" aid="12541" money="0" sharing="0"/>
+	<background id="rw_underground01_bg.swf" name="Hideout" enable="Y" default="N" is_premium="N" aid="12552" money="0" sharing="0"/>
+	<background id="rw_underground02_bg.swf" name="Hideout - explosions" enable="Y" default="N" is_premium="N" aid="12553" money="0" sharing="0"/>
+	<background id="grassyhills_day_bg.swf" name="Grassy Hills - Day" enable="Y" default="N" is_premium="N" aid="12553" money="0" sharing="0"/>
+	<background id="grassyhills_night_bg.swf" name="Grassy Hills - Night" enable="Y" default="N" is_premium="N" aid="12553" money="0" sharing="0"/>
+	<background id="white_house_ext_bg.swf" name="White house" enable="N" default="N" is_premium="N" aid="9061" money="0" sharing="0"/>
+	<background id="ncc_floor01.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14773" money="0" sharing="0"/>
+	<background id="ncc_jpschool_outside.swf" name="School outdoors" enable="Y" default="N" is_premium="N" aid="14774" money="0" sharing="0"/>
+	<background id="ncc_jpschoolfront.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14775" money="0" sharing="0"/>
+	<background id="ncc_floor02.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14776" money="0" sharing="0"/>
+	<background id="ncc_view_cus.swf" name="Interior" enable="Y" default="N" is_premium="N" aid="14777" money="0" sharing="0"/>
+	<background id="ncc_jpschool_outside2.swf" name="Outdoor" enable="Y" default="N" is_premium="N" aid="14778" money="0" sharing="0"/>
+	<background id="chibi_wall11.swf" name="wallpaper" enable="Y" default="N" is_premium="N" aid="14779" money="0" sharing="0"/>
+	<background id="chibi_wall12.swf" name="wallpaper" enable="Y" default="N" is_premium="N" aid="14780" money="0" sharing="0"/>
+	<background id="chibi_wall13.swf" name="wallpaper" enable="Y" default="N" is_premium="N" aid="14781" money="0" sharing="0"/>
 	<compositebg id="court" name="Court" enable="Y" default="N" thumb="court.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
 		<bg id="COURTBG10" index="0">
 			<file>common.court_bg_v1.swf</file>
@@ -256,6 +282,3322 @@
 			<face>1</face>
 			<rotation>0</rotation>
 		</prop>
+	</compositebg>
+	<compositebg id="cbg_chibi_street02" name="City street" enable="Y" default="Y" thumb="chibi_street02.png" display_order="90" is_premium="N" money="0" sharing="0" aid="15045">
+	<bg id="cbg_chibi_street02_BG336" index="0">
+		<file>common.ncc_jpschool_outside2.swf</file>
+		<color r="colorB">3355443</color>
+	</bg>
+	<prop id="cbg_chibi_street02_PROP26" index="8">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>36</x>
+		<y>187.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP28" index="9">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_front.swf</file>
+		<x>627</x>
+		<y>187.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP29" index="1">
+		<file>common.ncc_jp_house01.swf</file>
+		<x>293</x>
+		<y>33</y>
+		<xscale>1.75</xscale>
+		<yscale>1.75</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP30" index="6">
+		<file>common.msp_jp_road01.msp_jp_road01_ncc_jp_road01_front.swf</file>
+		<x>305.8</x>
+		<y>248</y>
+		<xscale>0.24</xscale>
+		<yscale>0.24</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP31" index="7">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>480.2</x>
+		<y>226.5</y>
+		<xscale>1.83</xscale>
+		<yscale>1.83</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP32" index="3">
+		<file>common.ncc_jp_grasscover.swf</file>
+		<x>329.5</x>
+		<y>260.8</y>
+		<xscale>0.55</xscale>
+		<yscale>0.21</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP33" index="5">
+		<file>common.ncc_jp_grass.swf</file>
+		<x>417.3</x>
+		<y>204.2</y>
+		<xscale>0.47</xscale>
+		<yscale>0.47</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">6723942</color>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP34" index="2">
+		<file>common.ncc_jptree01.swf</file>
+		<x>90.7</x>
+		<y>29.6</y>
+		<xscale>0.97</xscale>
+		<yscale>0.97</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street02_PROP36" index="11">
+		<file>common.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf</file>
+		<x>492.8</x>
+		<y>169.5</y>
+		<xscale>0.52</xscale>
+		<yscale>0.52</yscale>
+		<face>1</face>
+		<rotation>-90.7</rotation>
+		<color r="ccColorA">16777215</color>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_chibi_street01" name="City street" enable="Y" default="N" thumb="chibi_street01.png" display_order="91" is_premium="N" money="0" sharing="0" aid="15041">
+	<bg id="cbg_chibi_street01_BG339" index="0">
+		<file>common.ncc_jpschool_outside2.swf</file>
+		<color r="colorB">3355443</color>
+	</bg>
+	<prop id="cbg_chibi_street01_PROP26" index="7">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>69</x>
+		<y>203</y>
+		<xscale>0.74</xscale>
+		<yscale>0.74</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP27" index="8">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>339</x>
+		<y>203</y>
+		<xscale>0.74</xscale>
+		<yscale>0.74</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP28" index="9">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>608</x>
+		<y>203</y>
+		<xscale>0.74</xscale>
+		<yscale>0.74</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP29" index="5">
+		<file>common.ncc_jptree01.swf</file>
+		<x>474.5</x>
+		<y>138.8</y>
+		<xscale>0.75</xscale>
+		<yscale>0.75</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP30" index="4">
+		<file>common.ncc_jptree02.swf</file>
+		<x>579</x>
+		<y>74</y>
+		<xscale>1.3</xscale>
+		<yscale>1.3</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP31" index="2">
+		<file>common.ncc_jp_house01.swf</file>
+		<x>-14.5</x>
+		<y>94.8</y>
+		<xscale>1.32</xscale>
+		<yscale>1.32</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP32" index="1">
+		<file>common.ncc_jp_house02.swf</file>
+		<x>410.8</x>
+		<y>111.6</y>
+		<xscale>1.07</xscale>
+		<yscale>1.07</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP33" index="10">
+		<file>common.ncc_jp_deco01.swf</file>
+		<x>188.6</x>
+		<y>139.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_chibi_street01_PROP34" index="3">
+		<file>common.ncc_jptree02.swf</file>
+		<x>241</x>
+		<y>114</y>
+		<xscale>0.94</xscale>
+		<yscale>0.94</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_chibi_street03" name="City street" enable="Y" default="N" thumb="chibi_street03.png" display_order="92" is_premium="N" money="0" sharing="0" aid="15046">
+	<bg id="BG351" index="0">
+		<file>common.chibi_wall11.swf</file>
+		<color r="ccColorA">3355443</color>
+	</bg>
+	<prop id="PROP60" index="1">
+		<file>common.ncc_jp_grasscover.swf</file>
+		<x>431</x>
+		<y>63</y>
+		<xscale>0.61</xscale>
+		<yscale>0.61</yscale>
+		<face>1</face>
+		<rotation>6.9</rotation>
+	</prop>
+	<prop id="PROP61" index="2">
+		<file>common.ncc_jptree01.swf</file>
+		<x>284.6</x>
+		<y>37.3</y>
+		<xscale>0.76</xscale>
+		<yscale>0.76</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP50" index="3">
+		<file>common.ncc_jptree02.swf</file>
+		<x>381.5</x>
+		<y>76.7</y>
+		<xscale>1.11</xscale>
+		<yscale>1.11</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP51" index="4">
+		<file>common.ncc_jptree01.swf</file>
+		<x>497.2</x>
+		<y>99.5</y>
+		<xscale>0.76</xscale>
+		<yscale>0.76</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP52" index="5">
+		<file>common.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_side.swf</file>
+		<x>218.9</x>
+		<y>109.5</y>
+		<xscale>0.59</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP53" index="9">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_side.swf</file>
+		<x>165.2</x>
+		<y>156</y>
+		<xscale>0.64</xscale>
+		<yscale>0.64</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="PROP54" index="6">
+		<file>common.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_side.swf</file>
+		<x>341.3</x>
+		<y>169.8</y>
+		<xscale>0.59</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP55" index="7">
+		<file>common.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_front.swf</file>
+		<x>500.8</x>
+		<y>201.6</y>
+		<xscale>0.59</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP56" index="10">
+		<file>common.ncc_jptree01.swf</file>
+		<x>91.5</x>
+		<y>84.8</y>
+		<xscale>0.97</xscale>
+		<yscale>0.97</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP57" index="11">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_front.swf</file>
+		<x>151.3</x>
+		<y>209.3</y>
+		<xscale>0.7</xscale>
+		<yscale>0.7</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="PROP58" index="8">
+		<file>common.ncc_jp_deco01.swf</file>
+		<x>442.8</x>
+		<y>160.9</y>
+		<xscale>0.78</xscale>
+		<yscale>0.78</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_chibi_tv_room" name="Dining room" enable="Y" default="N" thumb="chibi_tv_room.png" display_order="93" is_premium="N" money="0" sharing="0" aid="15044">
+	<bg id="BG341" index="0">
+		<file>common.chibi_wall12.swf</file>
+	</bg>
+	<prop id="PROP40" index="1">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf</file>
+		<x>492</x>
+		<y>217</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP28" index="2">
+		<file>common.msp_jpwall04.msp_jpwall04_ncc_jpwall04_front.swf</file>
+		<x>435.7</x>
+		<y>69.3</y>
+		<xscale>1.46</xscale>
+		<yscale>1.46</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP36" index="3">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf</file>
+		<x>-8.1</x>
+		<y>170.4</y>
+		<xscale>1.46</xscale>
+		<yscale>1.46</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP33" index="5">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>324.7</x>
+		<y>269.6</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP34" index="6">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>675.7</x>
+		<y>269.1</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP29" index="7">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf</file>
+		<x>46.7</x>
+		<y>364.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP30" index="8">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>377.8</x>
+		<y>333.4</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP31" index="9">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>250.1</x>
+		<y>396.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP32" index="10">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf</file>
+		<x>578.7</x>
+		<y>364.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP23" index="11">
+		<file>common.ncc_ninja_drawer01.swf</file>
+		<x>252.5</x>
+		<y>208.9</y>
+		<xscale>1.16</xscale>
+		<yscale>1.16</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP24" index="12">
+		<file>common.msp_ninja_tv.msp_ninja_tv_ncc_ninja_tv01_front.swf</file>
+		<x>253.1</x>
+		<y>146.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP39" index="13">
+		<file>common.msp_ninja_door01.msp_ninja_door01_ncc_ninja_door01_close.swf</file>
+		<x>524</x>
+		<y>128</y>
+		<xscale>1.51</xscale>
+		<yscale>1.51</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorB">10066278</color>
+	</prop>
+	<prop id="PROP41" index="14">
+		<file>common.ncc_jp_warmtable.swf</file>
+		<x>373.6</x>
+		<y>301.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP44" index="16">
+		<file>common.ncc_ninja_lamp01.swf</file>
+		<x>380.4</x>
+		<y>62.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP42" index="15">
+		<file>common.ncc_ninja_flower.swf</file>
+		<x>376.1</x>
+		<y>212.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP43" index="4">
+		<file>common.msp_ninja_window.msp_ninja_window_ncc_ninja_window01.swf</file>
+		<x>44.6</x>
+		<y>148.9</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_chibi_bedroom01" name="Study room" enable="Y" default="N" thumb="chibi_bedroom01.png" display_order="94" is_premium="N" money="0" sharing="0" aid="15043">
+	<bg id="BG341" index="0">
+		<file>common.chibi_wall12.swf</file>
+	</bg>
+	<prop id="PROP37" index="1">
+		<file>common.msp_ninja_window.msp_ninja_window_ncc_ninja_window02.swf</file>
+		<x>83.6</x>
+		<y>113.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP33" index="2">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>320.7</x>
+		<y>269.6</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP34" index="3">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>675.7</x>
+		<y>269.1</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP29" index="4">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf</file>
+		<x>46.7</x>
+		<y>364.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP30" index="5">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>377.8</x>
+		<y>333.4</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP31" index="6">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>250.1</x>
+		<y>396.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP32" index="7">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf</file>
+		<x>578.7</x>
+		<y>364.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP35" index="8">
+		<file>common.msp_ninja_door01.msp_ninja_door01_ncc_ninja_door01_close.swf</file>
+		<x>507</x>
+		<y>124</y>
+		<xscale>1.55</xscale>
+		<yscale>1.55</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP36" index="9">
+		<file>common.msp_ninja_desk01.msp_ninja_desk01_ncc_ninja_desk01.swf</file>
+		<x>194</x>
+		<y>218</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP38" index="12">
+		<file>common.ncc_ninja_lamp01.swf</file>
+		<x>419</x>
+		<y>40.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP39" index="10">
+		<file>common.ncc_ninja_chair01.swf</file>
+		<x>325</x>
+		<y>204.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_chibi_bedroom02" name="Bedroom" enable="Y" default="N" thumb="chibi_bedroom02.png" display_order="95" is_premium="N" money="0" sharing="0" aid="15042">
+	<bg id="BG341" index="0">
+		<file>common.chibi_wall12.swf</file>
+	</bg>
+	<prop id="PROP37" index="1">
+		<file>common.msp_ninja_window.msp_ninja_window_ncc_ninja_window01.swf</file>
+		<x>83.6</x>
+		<y>113.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP33" index="2">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>320.7</x>
+		<y>269.6</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP34" index="3">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>675.7</x>
+		<y>269.1</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP29" index="4">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf</file>
+		<x>46.7</x>
+		<y>364.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP30" index="5">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>377.8</x>
+		<y>333.4</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP31" index="6">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami.swf</file>
+		<x>250.1</x>
+		<y>396.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP32" index="7">
+		<file>common.msp_ninja_tatami.msp_ninja_tatami_ncc_ninja_tatami2.swf</file>
+		<x>578.7</x>
+		<y>364.5</y>
+		<xscale>1.58</xscale>
+		<yscale>1.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP35" index="8">
+		<file>common.msp_ninja_door01.msp_ninja_door01_ncc_ninja_door01_close.swf</file>
+		<x>507</x>
+		<y>124</y>
+		<xscale>1.55</xscale>
+		<yscale>1.55</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP38" index="10">
+		<file>common.ncc_ninja_lamp01.swf</file>
+		<x>419</x>
+		<y>40.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP22" index="9">
+		<file>common.msp_ninja_bed.msp_ninja_bed_ncc_ninja_bed02.swf</file>
+		<x>360.6</x>
+		<y>297.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_school_front" name="School gate" enable="Y" default="N" thumb="sch_schoolfront.png" display_order="100" is_premium="N" money="0" sharing="0" aid="14782">
+	<bg id="BG8" index="0">
+		<file>common.ncc_jpschool_outside.swf</file>
+		<color r="colorA">3381708</color>
+	</bg>
+	<prop id="PROP123" index="1">
+		<file>common.ncc_jp_cloud02.swf</file>
+		<x>101.6</x>
+		<y>36.3</y>
+		<xscale>0.27</xscale>
+		<yscale>0.27</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP24" index="2">
+		<file>common.ncc_jptree01.swf</file>
+		<x>303</x>
+		<y>136</y>
+		<xscale>0.7</xscale>
+		<yscale>0.7</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP23" index="3">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>274</x>
+		<y>225.9</y>
+		<xscale>0.84</xscale>
+		<yscale>0.84</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP22" index="4">
+		<file>common.ncc_jptree01.swf</file>
+		<x>244</x>
+		<y>134</y>
+		<xscale>0.75</xscale>
+		<yscale>0.75</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP20" index="5">
+		<file>common.ncc_jp_schoolentrance01.swf</file>
+		<x>441.3</x>
+		<y>187.2</y>
+		<xscale>0.33</xscale>
+		<yscale>0.33</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP17" index="6">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>231</x>
+		<y>230.9</y>
+		<xscale>0.84</xscale>
+		<yscale>0.84</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP15" index="7">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>194</x>
+		<y>237.9</y>
+		<xscale>0.88</xscale>
+		<yscale>0.88</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP11" index="8">
+		<file>common.ncc_jptree02.swf</file>
+		<x>70</x>
+		<y>141.6</y>
+		<xscale>1.28</xscale>
+		<yscale>1.28</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP16" index="9">
+		<file>common.ncc_jptree01.swf</file>
+		<x>187</x>
+		<y>130</y>
+		<xscale>0.92</xscale>
+		<yscale>0.92</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP19" index="10">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>146</x>
+		<y>245.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP59" index="11">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>531.5</x>
+		<y>198.3</y>
+		<xscale>0.75</xscale>
+		<yscale>0.75</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP311" index="12">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_front.swf</file>
+		<x>40.6</x>
+		<y>198.6</y>
+		<xscale>0.76</xscale>
+		<yscale>0.76</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP323" index="13">
+		<file>common.ncc_jp_sign_school_front.swf</file>
+		<x>503.7</x>
+		<y>205</y>
+		<xscale>0.57</xscale>
+		<yscale>0.57</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_shoes_locker" name="School lockers" enable="Y" default="N" thumb="sch_shoeslocker.png" display_order="101" is_premium="N" money="0" sharing="0" aid="14783">
+	<bg id="BG54" index="0">
+		<file>common.ncc_floor01.swf</file>
+		<color r="colorA">9806485</color>
+	</bg>
+	<prop id="PROP429" index="1">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>359.9</x>
+		<y>48.9</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13354160</color>
+	</prop>
+	<prop id="PROP430" index="2">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>370.3</x>
+		<y>90.5</y>
+		<xscale>0.86</xscale>
+		<yscale>0.86</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP431" index="3">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>100.4</x>
+		<y>89.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP432" index="4">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>421.9</x>
+		<y>90.5</y>
+		<xscale>0.87</xscale>
+		<yscale>0.87</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP435" index="5">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf</file>
+		<x>194</x>
+		<y>234</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP436" index="6">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf</file>
+		<x>633</x>
+		<y>234</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP433" index="7">
+		<file>common.msp_jpwall03.msp_jpwall03_ncc_jpwall03_front.swf</file>
+		<x>442.5</x>
+		<y>89.3</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP434" index="8">
+		<file>common.ncc_jpmemoboard.swf</file>
+		<x>546.6</x>
+		<y>135.8</y>
+		<xscale>0.72</xscale>
+		<yscale>0.72</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP437" index="10">
+		<file>common.msp_jplocker01.msp_jplocker01_ncc_jplocker01_side.swf</file>
+		<x>143.7</x>
+		<y>198.3</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP438" index="9">
+		<file>common.ncc_jpposter01.swf</file>
+		<x>487.6</x>
+		<y>123.7</y>
+		<xscale>0.36</xscale>
+		<yscale>0.36</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP439" index="11">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf</file>
+		<x>179.4</x>
+		<y>322.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_classroom01" name="Classroom" enable="Y" default="N" thumb="sch_classroom01.png" display_order="102" is_premium="N" money="0" sharing="0" aid="14784">
+	<bg id="BG322" index="0">
+		<file>common.chibi_wall12.swf</file>
+	</bg>
+	<prop id="PROP536" index="32">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back2.swf</file>
+		<x>486.4</x>
+		<y>356.5</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP537" index="31">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>624.3</x>
+		<y>354.3</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP538" index="30">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>569</x>
+		<y>358.4</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP539" index="29">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>466.4</x>
+		<y>356.5</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP540" index="28">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>411.1</x>
+		<y>360.6</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP541" index="27">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>307.7</x>
+		<y>353.5</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP542" index="26">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>252.2</x>
+		<y>357.6</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP543" index="25">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>568.5</x>
+		<y>289.9</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP544" index="24">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>513.2</x>
+		<y>294</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP545" index="23">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>409.9</x>
+		<y>286.9</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP546" index="22">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>354.4</x>
+		<y>291</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP547" index="21">
+		<file>common.ncc_jpbook_front.swf</file>
+		<x>174</x>
+		<y>248.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP548" index="20">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>648.9</x>
+		<y>237.3</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP549" index="19">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>593.6</x>
+		<y>241.4</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP550" index="18">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_back.swf</file>
+		<x>490.3</x>
+		<y>234.3</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP551" index="17">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_front.swf</file>
+		<x>434.8</x>
+		<y>238.4</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP552" index="16">
+		<file>common.msp_jpcrmtable01.msp_jpcrmtable01_ncc_jpcrmtable01_front.swf</file>
+		<x>172.1</x>
+		<y>279.5</y>
+		<xscale>0.73</xscale>
+		<yscale>0.73</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP553" index="15">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>364.1</x>
+		<y>30.3</y>
+		<xscale>1.58</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP554" index="14">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>271</x>
+		<y>30.3</y>
+		<xscale>1.58</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP555" index="13">
+		<file>common.square01.swf</file>
+		<x>317</x>
+		<y>30.3</y>
+		<xscale>3.04</xscale>
+		<yscale>0.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP556" index="12">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>469.9</x>
+		<y>29.3</y>
+		<xscale>1.28</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP557" index="11">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>545.3</x>
+		<y>29.3</y>
+		<xscale>1.28</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP558" index="10">
+		<file>common.msp_cork_jpboard.msp_cork_jpboard_ncc_cork_jpboard_side.swf</file>
+		<x>34.9</x>
+		<y>189.9</y>
+		<xscale>1.12</xscale>
+		<yscale>1.12</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP559" index="8">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>468.6</x>
+		<y>118.3</y>
+		<xscale>1.31</xscale>
+		<yscale>1.31</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP560" index="9">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf</file>
+		<x>167.1</x>
+		<y>320.4</y>
+		<xscale>0.66</xscale>
+		<yscale>0.66</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP561" index="7">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf</file>
+		<x>91.1</x>
+		<y>320.4</y>
+		<xscale>0.66</xscale>
+		<yscale>0.66</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP562" index="5">
+		<file>common.msp_jpdoubledoor.msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf</file>
+		<x>317.2</x>
+		<y>153.7</y>
+		<xscale>1.28</xscale>
+		<yscale>1.28</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP563" index="6">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>546.4</x>
+		<y>118.3</y>
+		<xscale>1.31</xscale>
+		<yscale>1.31</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP564" index="4">
+		<file>common.square01.swf</file>
+		<x>508.4</x>
+		<y>29.1</y>
+		<xscale>2.42</xscale>
+		<yscale>0.58</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP565" index="3">
+		<file>common.msp_jpwall05.msp_jpwall05_ncc_jpwall05_front.swf</file>
+		<x>403.3</x>
+		<y>99.4</y>
+		<xscale>1.27</xscale>
+		<yscale>1.27</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP566" index="2">
+		<file>common.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front2.swf</file>
+		<x>410.6</x>
+		<y>94.7</y>
+		<xscale>0.99</xscale>
+		<yscale>0.99</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">12630179</color>
+	</prop>
+	<prop id="PROP567" index="1">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf</file>
+		<x>-9.8</x>
+		<y>192.9</y>
+		<xscale>1.35</xscale>
+		<yscale>1.35</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_blackboard" name="Blackboard" enable="Y" default="N" thumb="sch_blackboard.png" display_order="103" is_premium="N" money="0" sharing="0" aid="14785">
+	<bg id="BG339" index="0">
+		<file>common.chibi_wall11.swf</file>
+		<color r="ccColorA">14867141</color>
+	</bg>
+	<prop id="PROP2" index="1">
+		<file>common.msp_cork_jpboard.msp_cork_jpboard_ncc_cork_jpboard_front.swf</file>
+		<x>324.6</x>
+		<y>193</y>
+		<xscale>2.22</xscale>
+		<yscale>2.22</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_classroom02" name="Classroom" enable="Y" default="N" thumb="sch_classroom02.png" display_order="104" is_premium="N" money="0" sharing="0" aid="14786">
+	<bg id="BG437" index="0">
+		<file>common.chibi_wall13.swf</file>
+	</bg>
+	<prop id="PROP119" index="1">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf</file>
+		<x>615.4</x>
+		<y>171.1</y>
+		<xscale>1.24</xscale>
+		<yscale>1.24</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP120" index="2">
+		<file>common.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front2.swf</file>
+		<x>196.3</x>
+		<y>77.8</y>
+		<xscale>1.01</xscale>
+		<yscale>1.01</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">12630179</color>
+	</prop>
+	<prop id="PROP121" index="3">
+		<file>common.msp_jpwall05.msp_jpwall05_ncc_jpwall05_front.swf</file>
+		<x>210.8</x>
+		<y>97.2</y>
+		<xscale>1.27</xscale>
+		<yscale>1.27</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP122" index="4">
+		<file>common.msp_jpdoubledoor.msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf</file>
+		<x>297.7</x>
+		<y>150.9</y>
+		<xscale>1.27</xscale>
+		<yscale>1.27</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP123" index="5">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>457.7</x>
+		<y>211.2</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP124" index="6">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>476.5</x>
+		<y>220.5</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP126" index="7">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>142.7</x>
+		<y>115.6</y>
+		<xscale>1.31</xscale>
+		<yscale>1.31</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP127" index="8">
+		<file>common.ncc_jpposter01.swf</file>
+		<x>441.7</x>
+		<y>100.2</y>
+		<xscale>0.29</xscale>
+		<yscale>0.29</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP128" index="9">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>495.5</x>
+		<y>229.8</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP129" index="10">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>514.7</x>
+		<y>239.4</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP130" index="11">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>534.3</x>
+		<y>249</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP131" index="12">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>553.9</x>
+		<y>258.7</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP132" index="23">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>276.4</x>
+		<y>234.7</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP133" index="24">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>230.4</x>
+		<y>247.5</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP134" index="25">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>136</x>
+		<y>238</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP135" index="26">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>90</x>
+		<y>250.8</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP136" index="27">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>363.5</x>
+		<y>288.4</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP137" index="28">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>223.1</x>
+		<y>291.7</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP138" index="29">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>177.1</x>
+		<y>304.5</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP139" index="30">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>317.5</x>
+		<y>301.2</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP140" index="31">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>88.7</x>
+		<y>288.4</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP141" index="32">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>42.7</x>
+		<y>301.2</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP142" index="33">
+		<file>common.ncc_jpbook_front.swf</file>
+		<x>181</x>
+		<y>270.8</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP143" index="13">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>573.5</x>
+		<y>268.4</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP144" index="14">
+		<file>common.msp_jpcabinet02.msp_jpcabinet02_ncc_jpcabinet02_side.swf</file>
+		<x>593</x>
+		<y>277.8</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP145" index="34">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>449.8</x>
+		<y>347.3</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP146" index="35">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>403.8</x>
+		<y>360.1</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP147" index="36">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>309.4</x>
+		<y>350.6</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP148" index="37">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>263.4</x>
+		<y>363.4</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP149" index="38">
+		<file>common.msp_jpchair.msp_jpchair_ncc_jpchair_side.swf</file>
+		<x>175</x>
+		<y>347.3</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP150" index="39">
+		<file>common.msp_jptable01.msp_jptable01_ncc_jptable01_back.swf</file>
+		<x>129</x>
+		<y>360.1</y>
+		<xscale>0.82</xscale>
+		<yscale>0.82</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP151" index="16">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>64.8</x>
+		<y>115.5</y>
+		<xscale>1.31</xscale>
+		<yscale>1.31</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP152" index="17">
+		<file>common.square01.swf</file>
+		<x>100.9</x>
+		<y>22.3</y>
+		<xscale>2.34</xscale>
+		<yscale>0.56</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP153" index="19">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>63.9</x>
+		<y>22.3</y>
+		<xscale>1.28</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP154" index="18">
+		<file>common.square01.swf</file>
+		<x>295.4</x>
+		<y>23.1</y>
+		<xscale>2.96</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP155" index="21">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>250</x>
+		<y>23.3</y>
+		<xscale>1.58</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP156" index="22">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>343.1</x>
+		<y>23.3</y>
+		<xscale>1.58</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP157" index="20">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>139.3</x>
+		<y>22.3</y>
+		<xscale>1.28</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP158" index="15">
+		<file>common.msp_cork_jpboard.msp_cork_jpboard_ncc_cork_jpboard_side.swf</file>
+		<x>560.3</x>
+		<y>110</y>
+		<xscale>0.88</xscale>
+		<yscale>0.88</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">9667678</color>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_hallway01" name="Hallway" enable="Y" default="N" thumb="sch_hallway01.png" display_order="105" is_premium="N" money="0" sharing="0" aid="14787">
+	<bg id="BG54" index="0">
+		<file>common.ncc_floor01.swf</file>
+		<color r="colorA">7454691</color>
+	</bg>
+	<prop id="PROP317" index="1">
+		<file>common.ncc_jp_cloud01.swf</file>
+		<x>462</x>
+		<y>88.8</y>
+		<xscale>0.28</xscale>
+		<yscale>0.28</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP316" index="2">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>260.5</x>
+		<y>205.2</y>
+		<xscale>1.22</xscale>
+		<yscale>1.22</yscale>
+		<face>1</face>
+		<rotation>31.2</rotation>
+	</prop>
+	<prop id="PROP315" index="3">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>184.3</x>
+		<y>183.7</y>
+		<xscale>1.22</xscale>
+		<yscale>1.22</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP313" index="4">
+		<file>common.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front.swf</file>
+		<x>181.2</x>
+		<y>140.7</y>
+		<xscale>1.12</xscale>
+		<yscale>1.12</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP314" index="5">
+		<file>common.msp_jpwall09.msp_jpwall09_ncc_jpwall09_front.swf</file>
+		<x>589.6</x>
+		<y>140</y>
+		<xscale>1.12</xscale>
+		<yscale>1.12</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_classroom_outside" name="Hallway" enable="Y" default="N" thumb="sch_classroom_outside.png" display_order="106" is_premium="N" money="0" sharing="0" aid="14788">
+	<bg id="BG54" index="0">
+		<file>common.ncc_floor01.swf</file>
+		<color r="colorA">13421772</color>
+	</bg>
+	<prop id="PROP202" index="1">
+		<file>common.msp_jpwall05.msp_jpwall05_ncc_jpwall05_front.swf</file>
+		<x>-14</x>
+		<y>141</y>
+		<xscale>1.16</xscale>
+		<yscale>1.16</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP34" index="2">
+		<file>common.square01.swf</file>
+		<x>81.1</x>
+		<y>71.3</y>
+		<xscale>2.28</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP205" index="4">
+		<file>common.msp_jpwall06.msp_jpwall06_ncc_jpwall06_front.swf</file>
+		<x>410.4</x>
+		<y>140.7</y>
+		<xscale>1.16</xscale>
+		<yscale>1.16</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP36" index="5">
+		<file>common.square01.swf</file>
+		<x>479.7</x>
+		<y>73.2</y>
+		<xscale>2.56</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP35" index="6">
+		<file>common.square01.swf</file>
+		<x>313.5</x>
+		<y>73.2</y>
+		<xscale>2.28</xscale>
+		<yscale>0.59</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+	</prop>
+	<prop id="PROP204" index="7">
+		<file>common.msp_jpdoubledoor.msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf</file>
+		<x>481</x>
+		<y>189.4</y>
+		<xscale>1.17</xscale>
+		<yscale>1.17</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP210" index="8">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>279.6</x>
+		<y>158</y>
+		<xscale>1.17</xscale>
+		<yscale>1.17</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP211" index="9">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>349.6</x>
+		<y>158</y>
+		<xscale>1.17</xscale>
+		<yscale>1.17</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP207" index="10">
+		<file>common.msp_jp_sign_class.msp_jp_sign_class_ncc_jp_sign_class_side.swf</file>
+		<x>550.2</x>
+		<y>127.2</y>
+		<xscale>0.49</xscale>
+		<yscale>0.49</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP214" index="11">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>47.6</x>
+		<y>157</y>
+		<xscale>1.17</xscale>
+		<yscale>1.17</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP209" index="3">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>117.6</x>
+		<y>157</y>
+		<xscale>1.17</xscale>
+		<yscale>1.17</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP219" index="12">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>277.9</x>
+		<y>73.3</y>
+		<xscale>1.18</xscale>
+		<yscale>0.42</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP220" index="13">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>347.3</x>
+		<y>73.3</y>
+		<xscale>1.18</xscale>
+		<yscale>0.42</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP221" index="14">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>440</x>
+		<y>73.3</y>
+		<xscale>1.38</xscale>
+		<yscale>0.42</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP213" index="15">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>521.2</x>
+		<y>73.3</y>
+		<xscale>1.38</xscale>
+		<yscale>0.42</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP224" index="16">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>115.3</x>
+		<y>71.3</y>
+		<xscale>1.18</xscale>
+		<yscale>0.42</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP225" index="17">
+		<file>common.msp_jp_window_display.msp_jp_window_display_ncc_jp_window_display.swf</file>
+		<x>45.9</x>
+		<y>71.3</y>
+		<xscale>1.18</xscale>
+		<yscale>0.42</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_stair" name="Hallway" enable="Y" default="N" thumb="sch_stair.png" display_order="107" is_premium="N" money="0" sharing="0" aid="14789">
+	<bg id="BG432" index="0">
+		<file>common.chibi_wall12.swf</file>
+	</bg>
+	<prop id="PROP14" index="1">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>414.2</x>
+		<y>122.5</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">11446163</color>
+	</prop>
+	<prop id="PROP15" index="2">
+		<file>common.msp_jpwall01.msp_jpwall01_ncc_jpwall01_side.swf</file>
+		<x>-30.1</x>
+		<y>215.1</y>
+		<xscale>1.3</xscale>
+		<yscale>1.3</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP16" index="3">
+		<file>common.msp_jpwall04.msp_jpwall04_ncc_jpwall04_front.swf</file>
+		<x>384.2</x>
+		<y>133.1</y>
+		<xscale>1.3</xscale>
+		<yscale>1.3</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP17" index="4">
+		<file>common.msp_jp_sign_exit.msp_jp_sign_exit_ncc_jp_sign_exit_front.swf</file>
+		<x>462.9</x>
+		<y>77.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP18" index="5">
+		<file>common.msp_jpsllocker02.msp_jpsllocker02_ncc_jpsllocker02_close.swf</file>
+		<x>213.4</x>
+		<y>213.9</y>
+		<xscale>0.64</xscale>
+		<yscale>0.64</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP19" index="6">
+		<file>common.msp_jpsllocker02.msp_jpsllocker02_ncc_jpsllocker02_close.swf</file>
+		<x>262.7</x>
+		<y>213.5</y>
+		<xscale>0.64</xscale>
+		<yscale>0.64</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP20" index="7">
+		<file>common.ncc_jpslfire.swf</file>
+		<x>327.4</x>
+		<y>210.2</y>
+		<xscale>0.46</xscale>
+		<yscale>0.46</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_roof" name="School rooftop" enable="Y" default="N" thumb="sch_roof.png" display_order="108" is_premium="N" money="0" sharing="0" aid="14790">
+	<bg id="BG281" index="0">
+		<file>common.ncc_floor02.swf</file>
+		<color r="colorC">13421772</color>
+	</bg>
+	<prop id="PROP42" index="4">
+		<file>common.backdrop.swf</file>
+		<x>133.9</x>
+		<y>204.3</y>
+		<xscale>0.38</xscale>
+		<yscale>0.38</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP43" index="5">
+		<file>common.backdrop.swf</file>
+		<x>346.4</x>
+		<y>204</y>
+		<xscale>0.38</xscale>
+		<yscale>0.38</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP44" index="6">
+		<file>common.backdrop.swf</file>
+		<x>556.4</x>
+		<y>204.3</y>
+		<xscale>0.38</xscale>
+		<yscale>0.38</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP307" index="1">
+		<file>common.ncc_jp_cloud02.swf</file>
+		<x>116.7</x>
+		<y>52.2</y>
+		<xscale>0.45</xscale>
+		<yscale>0.45</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP308" index="2">
+		<file>common.ncc_jp_cloud01.swf</file>
+		<x>482.2</x>
+		<y>70.9</y>
+		<xscale>0.44</xscale>
+		<yscale>0.44</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP309" index="3">
+		<file>common.ncc_jp_cloud03.swf</file>
+		<x>552.6</x>
+		<y>83.3</y>
+		<xscale>0.57</xscale>
+		<yscale>0.57</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP318" index="7">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>579.1</x>
+		<y>225.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>-19.4</rotation>
+	</prop>
+	<prop id="PROP320" index="8">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>200.4</x>
+		<y>229.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>20.6</rotation>
+	</prop>
+	<prop id="PROP321" index="9">
+		<file>common.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf</file>
+		<x>94.4</x>
+		<y>241.8</y>
+		<xscale>0.87</xscale>
+		<yscale>0.87</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP322" index="10">
+		<file>common.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf</file>
+		<x>86.8</x>
+		<y>182.6</y>
+		<xscale>0.54</xscale>
+		<yscale>0.54</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP324" index="11">
+		<file>common.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf</file>
+		<x>210.6</x>
+		<y>241.9</y>
+		<xscale>0.88</xscale>
+		<yscale>0.88</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP325" index="12">
+		<file>common.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf</file>
+		<x>205.8</x>
+		<y>182.6</y>
+		<xscale>0.54</xscale>
+		<yscale>0.54</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP326" index="13">
+		<file>common.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf</file>
+		<x>327</x>
+		<y>241.9</y>
+		<xscale>0.88</xscale>
+		<yscale>0.88</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP327" index="14">
+		<file>common.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf</file>
+		<x>325</x>
+		<y>182.6</y>
+		<xscale>0.54</xscale>
+		<yscale>0.54</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP354" index="15">
+		<file>common.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf</file>
+		<x>443.2</x>
+		<y>241.9</y>
+		<xscale>0.88</xscale>
+		<yscale>0.88</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP357" index="16">
+		<file>common.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf</file>
+		<x>444</x>
+		<y>182.6</y>
+		<xscale>0.54</xscale>
+		<yscale>0.54</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP360" index="17">
+		<file>common.msp_jprectangle.msp_jprectangle_ncc_jprectangle_front.swf</file>
+		<x>559.4</x>
+		<y>242.1</y>
+		<xscale>0.88</xscale>
+		<yscale>0.88</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP361" index="18">
+		<file>common.msp_jpfence01.msp_jpfence01_ncc_jpfence01.swf</file>
+		<x>562.9</x>
+		<y>182.6</y>
+		<xscale>0.54</xscale>
+		<yscale>0.54</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP40" index="19">
+		<file>common.msp_sniper_rooftop.msp_sniper_rooftop_ncc_sniper_rooftop03.swf</file>
+		<x>77.8</x>
+		<y>272.6</y>
+		<xscale>0.64</xscale>
+		<yscale>0.64</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+	<prop id="PROP41" index="20">
+		<file>common.msp_sniper_rooftop.msp_sniper_rooftop_ncc_sniper_rooftop02.swf</file>
+		<x>77.9</x>
+		<y>272.3</y>
+		<xscale>0.64</xscale>
+		<yscale>0.64</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">10066329</color>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_exit" name="School entrance" enable="Y" default="N" thumb="sch_exit.png" display_order="109" is_premium="N" money="0" sharing="0" aid="14791">
+	<bg id="BG553" index="0">
+		<file>common.ncc_jpschoolfront.swf</file>
+		<color r="colorA">10066329</color>
+		<color r="colorB">8486739</color>
+		<color r="colorC">10590079</color>
+	</bg>
+	<prop id="PROP20" index="1">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplatform_front.swf</file>
+		<x>183.8</x>
+		<y>132.7</y>
+		<xscale>0.49</xscale>
+		<yscale>0.49</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP21" index="2">
+		<file>common.msp_jplocker01.msp_jplocker01_ncc_jplocker01_side.swf</file>
+		<x>222.5</x>
+		<y>125.2</y>
+		<xscale>0.52</xscale>
+		<yscale>0.52</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP22" index="3">
+		<file>common.msp_jpplatform.msp_jpplatform_ncc_jpplaform_side.swf</file>
+		<x>174.1</x>
+		<y>169.6</y>
+		<xscale>0.42</xscale>
+		<yscale>0.42</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP23" index="4">
+		<file>common.msp_jpwall02.msp_jpwall02_ncc_jpwall02_front.swf</file>
+		<x>803.7</x>
+		<y>117.8</y>
+		<xscale>1.39</xscale>
+		<yscale>1.39</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP24" index="5">
+		<file>common.msp_jpwall04.msp_jpwall04_ncc_jpwall04_front.swf</file>
+		<x>294.9</x>
+		<y>116.9</y>
+		<xscale>1.38</xscale>
+		<yscale>1.38</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP25" index="6">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>475.6</x>
+		<y>261.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP26" index="7">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>357.8</x>
+		<y>261.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP27" index="8">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>428.2</x>
+		<y>262.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP28" index="9">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>83.5</x>
+		<y>262.3</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP33" index="10">
+		<file>common.msp_jprectangle02.msp_jprectangle02_ncc_jprectangle02_front.swf</file>
+		<x>570.9</x>
+		<y>306</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP34" index="11">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>608.3</x>
+		<y>263.2</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP35" index="12">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>541.6</x>
+		<y>266.1</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP31" index="13">
+		<file>common.ncc_jp_schoolentrance01.swf</file>
+		<x>277.6</x>
+		<y>199.6</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">14867141</color>
+	</prop>
+	<prop id="PROP32" index="14">
+		<file>common.msp_jprectangle02.msp_jprectangle02_ncc_jprectangle02_front.swf</file>
+		<x>45.7</x>
+		<y>306.5</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP36" index="15">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>83</x>
+		<y>263.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="PROP37" index="16">
+		<file>common.ncc_jp_plants02.swf</file>
+		<x>16.3</x>
+		<y>266.6</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="cbg_sch_sakura" name="sakura" enable="Y" default="N" thumb="sch_sakura.png" display_order="110" is_premium="N" money="0" sharing="0" aid="14975">
+	<bg id="cbg_sch_sakura_BG337" index="0">
+		<file>common.ncc_floor02.swf</file>
+		<color r="colorA">16764057</color>
+		<color r="colorB">10079436</color>
+	</bg>
+	<prop id="cbg_sch_sakura_PROP26" index="7">
+		<file>common.ncc_jp_grasscover.swf</file>
+		<x>332</x>
+		<y>402</y>
+		<xscale>1.06</xscale>
+		<yscale>1.02</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP27" index="4">
+		<file>common.backdrop.swf</file>
+		<x>320.8</x>
+		<y>244.4</y>
+		<xscale>1</xscale>
+		<yscale>0.93</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">13421772</color>
+		<color r="ccColorB">10066329</color>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP28" index="9">
+		<file>common.ncc_jptree01.swf</file>
+		<x>105.1</x>
+		<y>91.4</y>
+		<xscale>1.76</xscale>
+		<yscale>1.76</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">16751001</color>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP29" index="5">
+		<file>common.ncc_jptree01.swf</file>
+		<x>458</x>
+		<y>121</y>
+		<xscale>1.26</xscale>
+		<yscale>1.26</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">16751001</color>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP30" index="10">
+		<file>common.ncc_jptree02.swf</file>
+		<x>579.8</x>
+		<y>33.2</y>
+		<xscale>3.13</xscale>
+		<yscale>3.13</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorB">16764108</color>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP31" index="11">
+		<file>common.ncc_jp_grass.swf</file>
+		<x>581.8</x>
+		<y>280.2</y>
+		<xscale>0.64</xscale>
+		<yscale>0.64</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP32" index="12">
+		<file>common.ncc_jp_grass.swf</file>
+		<x>55.9</x>
+		<y>294.2</y>
+		<xscale>1.06</xscale>
+		<yscale>1.06</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP33" index="3">
+		<file>common.ncc_jp_cloud01.swf</file>
+		<x>159</x>
+		<y>209</y>
+		<xscale>0.31</xscale>
+		<yscale>0.31</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">16764057</color>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP34" index="2">
+		<file>common.ncc_jp_cloud03.swf</file>
+		<x>308</x>
+		<y>161</y>
+		<xscale>0.25</xscale>
+		<yscale>0.25</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">16764057</color>
+	</prop>
+	<prop id="cbg_sch_sakura_PROP35" index="1">
+		<file>common.ncc_jp_cloud02.swf</file>
+		<x>399</x>
+		<y>211</y>
+		<xscale>0.51</xscale>
+		<yscale>0.51</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+		<color r="ccColorA">16764057</color>
+	</prop>
+</compositebg>
+	<compositebg id="creatorroom" name="Creator's Room" enable="Y" default="N" thumb="creators_room.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3164">
+		<bg id="CREATORBG103" index="0">
+			<file>common.wall18.swf</file>
+			<color r="ccColorA">11926527</color>
+            <color r="ccColorB">1441536</color>
+            <color r="ccColorC">678720</color>
+            <color r="ccColorD">58879</color>
+		</bg>
+		<prop id="CREATORPROP3" index="2">
+            <file>common.msp_window01.msp_window01_ncc_window01_day.swf</file>
+            <x>122.6453952</x>
+            <y>122.7293641</y>
+            <xscale>0.8779601</xscale>
+            <yscale>0.6225753</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">851902</color>
+        </prop>
+        <prop id="CREATORPROP5" index="1">
+            <file>common.msp_window01.msp_window01_ncc_window01_day.swf</file>
+            <x>225.1953952</x>
+            <y>122.7</y>
+            <xscale>0.8779601</xscale>
+            <yscale>0.6225753</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">851902</color>
+        </prop>
+        <prop id="CREATORPROP6" index="6">
+            <file>common.msp_double_bed.msp_double_bed_ncc_double_bed_side.swf</file>
+            <x>423.8666667</x>
+            <y>222.5122108</y>
+            <xscale>0.5633893</xscale>
+            <yscale>0.5633893</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">630540</color>
+            <color r="ccColorB">59819</color>
+        </prop>
+        <prop id="CREATORPROP7" index="9">
+            <file>common.msp_blanklet01.msp_blanklet01_ncc_blanklet_side_empty.swf</file>
+            <x>403.8</x>
+            <y>243.7103175</y>
+            <xscale>0.5585366</xscale>
+            <yscale>0.5585366</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">49430</color>
+            <color r="ccColorB">851930</color>
+        </prop>
+        <prop id="CREATORPROP8" index="7">
+            <file>common.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+            <x>451.5918624</x>
+            <y>218.771786</y>
+            <xscale>0.5327849</xscale>
+            <yscale>0.5327849</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">1368538</color>
+        </prop>
+        <prop id="CREATORPROP10" index="8">
+            <file>common.msp_pillow02.msp_pillow02_ncc_pillow02_side.swf</file>
+            <x>487.2918624</x>
+            <y>239.471786</y>
+            <xscale>0.5327849</xscale>
+            <yscale>0.5327849</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">1368538</color>
+        </prop>
+        <prop id="CREATORPROP11" index="3">
+            <file>common.msp_cafepic03.msp_cafepic03_ncc_cafepic03_side.swf</file>
+            <x>497.4</x>
+            <y>110.3</y>
+            <xscale>1.2576769</xscale>
+            <yscale>1.2576769</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+        </prop>
+        <prop id="CREATORPROP12" index="12">
+            <file>common.msp_sofa01.msp_sofa01_sofa01_side.swf</file>
+            <x>588.0759553</x>
+            <y>303.5779304</y>
+            <xscale>0.7045169</xscale>
+            <yscale>0.7045169</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">1368538</color>
+        </prop>
+        <prop id="CREATORPROP13" index="10">
+            <file>common.msp_capboard02.msp_capboard02_ncc_capboard02_side.swf</file>
+            <x>524.475</x>
+            <y>269.8603175</y>
+            <xscale>0.5749437</xscale>
+            <yscale>0.5749437</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">12648447</color>
+        </prop>
+        <prop id="CREATORPROP14" index="11">
+            <file>common.ncc_lamp03.swf</file>
+            <x>524.45</x>
+            <y>222.5214</y>
+            <xscale>0.856</xscale>
+            <yscale>0.856</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">1441536</color>
+            <color r="ccColorB">58879</color>
+        </prop>
+        <prop id="CREATORPROP15" index="5">
+            <file>common.ncc_tocarpet.swf</file>
+            <x>230.3333333</x>
+            <y>282.7</y>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">58879</color>
+            <color r="ccColorB">1441536</color>
+        </prop>
+        <prop id="CREATORPROP16" index="13">
+            <file>common.msp_office_desk.msp_office_desk_office_desk_front.swf</file>
+            <x>176.326087</x>
+            <y>218.775</y>
+            <xscale>0.6247869</xscale>
+            <yscale>0.5601983</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">16514043</color>
+        </prop>
+        <prop id="CREATORPROP18" index="14">
+            <file>common.msp_laptop.msp_laptop_laptop_front.swf</file>
+            <x>168.8275707</x>
+            <y>170.4103175</y>
+            <xscale>0.5833333</xscale>
+            <yscale>0.5833333</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">3355443</color>
+        </prop>
+        <prop id="CREATORPROP19" index="15">
+            <file>common.interview_chair.swf</file>
+            <x>215.326087</x>
+            <y>228.7103175</y>
+            <xscale>0.7788462</xscale>
+            <yscale>0.7788462</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+        </prop>
+        <prop id="CREATORPROP20" index="4">
+            <file>common.msp_window01.msp_window01_ncc_window01_side_day.swf</file>
+            <x>630.325</x>
+            <y>177.2</y>
+            <xscale>0.9732772</xscale>
+            <yscale>0.910895</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">851902</color>
+        </prop>
+	</compositebg>
+	<compositebg id="cityofgoanimate" name="City of GoAnimate" enable="Y" default="N" thumb="city_of_goanimate.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3164">
+		<bg id="CITYOFGOANIMATEBG136" index="0">
+			<file>common.ncc_gradient.swf</file>
+            <color r="colorA">1160957</color>
+            <color r="colorB">14153727</color>
+            <color r="colorC">14153727</color>
+        </bg>
+        <prop id="CITYOFGOANIMATEPROP206" index="33">
+            <file>common.ncc_sniper_grasscover.swf</file>
+            <x>321.9349987</x>
+            <y>453.0603175</y>
+            <xscale>1.300027</xscale>
+            <yscale>1.300027</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP208" index="35">
+            <file>common.msp_wood.msp_wood_ncc_wood02.swf</file>
+            <x>335.9388889</x>
+            <y>280.3088909</y>
+            <xscale>0.280179</xscale>
+            <yscale>0.1778178</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP215" index="36">
+            <file>common.msp_wood.msp_wood_ncc_wood02.swf</file>
+            <x>513.3388889</x>
+            <y>280.3088909</y>
+            <xscale>0.280179</xscale>
+            <yscale>0.1778178</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP216" index="37">
+            <file>common.msp_ninja_wall03.msp_ninja_wall03_ncc_ninja_wall03_front.swf</file>
+            <x>429.2838138</x>
+            <y>244.725</y>
+            <xscale>0.6474499</xscale>
+            <yscale>0.2455811</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">7616771</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP217" index="34">
+            <file>common.ncc_jptree02.swf</file>
+            <x>558.1746032</x>
+            <y>212.25</y>
+            <xscale>0.8725892</xscale>
+            <yscale>0.8725892</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">8017959</color>
+            <color r="ccColorB">7249965</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP222" index="38">
+            <file>common.ncc_jptree02.swf</file>
+            <x>265.5718147</x>
+            <y>239.825</y>
+            <xscale>0.8725892</xscale>
+            <yscale>0.8725892</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">8017959</color>
+            <color r="ccColorB">7249965</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP223" index="31">
+            <file>common.ncc_tree02.swf</file>
+            <x>62.8775707</x>
+            <y>322.8603175</y>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <face>1</face>
+            <rotation>11.0147814</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP227" index="29">
+            <file>common.ncc_tree02.swf</file>
+            <x>133.8275707</x>
+            <y>322.8047766</y>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <face>1</face>
+            <rotation>-22.2205001</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP229" index="30">
+            <file>common.ncc_tree02.swf</file>
+            <x>176.9775707</x>
+            <y>310.7512561</y>
+            <xscale>1</xscale>
+            <yscale>1</yscale>
+            <face>1</face>
+            <rotation>2.8799243</rotation>
+            <color r="ccColorB">7852800</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP231" index="25">
+          <file>common.ncc_tree02.swf</file>
+          <x>213.0643937</x>
+          <y>310.7704407</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>54.8479007</rotation>
+          <color r="ccColorB">2586375</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP233" index="26">
+          <file>common.ncc_tree02.swf</file>
+          <x>305.1775707</x>
+          <y>286.2512561</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>2.8799243</rotation>
+          <color r="ccColorB">7852800</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP235" index="28">
+          <file>common.ncc_tree02.swf</file>
+          <x>368.1999419</x>
+          <y>269.0012561</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>-3.9065959</rotation>
+          <color r="ccColorB">7852800</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP237" index="24">
+          <file>common.ncc_tree02.swf</file>
+          <x>416.3981434</x>
+          <y>280.2905457</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>-22.2205001</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP239" index="22">
+          <file>common.ncc_tree02.swf</file>
+          <x>465.2995394</x>
+          <y>292.6047766</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>11.0147814</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP241" index="32">
+          <file>common.ncc_tree02.swf</file>
+          <x>524.4775707</x>
+          <y>286.2512561</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>2.8799243</rotation>
+          <color r="ccColorB">7852800</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP243" index="27">
+          <file>common.ncc_tree02.swf</file>
+          <x>610.3231434</x>
+          <y>307.5155457</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>-22.2205001</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP244" index="23">
+          <file>common.ncc_sniper_buildings.swf</file>
+          <x>100.575</x>
+          <y>244.730819</y>
+          <xscale>0.2327597</xscale>
+          <yscale>0.2327597</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP246" index="20">
+          <file>common.ncc_sniper_buildings.swf</file>
+          <x>199.875</x>
+          <y>244.680819</y>
+          <xscale>0.2327597</xscale>
+          <yscale>0.2327597</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP248" index="16">
+          <file>common.ncc_sniper_buildings.swf</file>
+          <x>591.125</x>
+          <y>239.830819</y>
+          <xscale>0.2327597</xscale>
+          <yscale>0.2327597</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP249" index="12">
+          <file>common.office_tower.swf</file>
+          <x>189.55</x>
+          <y>158.6</y>
+          <xscale>0.4285714</xscale>
+          <yscale>0.7719898</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">666095</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP250" index="13">
+          <file>common.ncc_rbuilding01.swf</file>
+          <x>226.175</x>
+          <y>178.6154362</y>
+          <xscale>0.6174475</xscale>
+          <yscale>0.6174475</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP251" index="15">
+          <file>common.tall_building01.swf</file>
+          <x>243.9629625</x>
+          <y>194.8870375</y>
+          <xscale>0.4814986</xscale>
+          <yscale>0.4814986</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP252" index="11">
+          <file>common.office_tower.swf</file>
+          <x>278.925</x>
+          <y>174.85</y>
+          <xscale>0.50035</xscale>
+          <yscale>0.50035</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP253" index="10">
+          <file>common.telecom_tower.swf</file>
+          <x>243.9927219</x>
+          <y>155.85</y>
+          <xscale>0.8544379</xscale>
+          <yscale>0.8544379</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP255" index="21">
+          <file>common.ncc_sniper_buildings.swf</file>
+          <x>298.625</x>
+          <y>244.630819</y>
+          <xscale>0.2327597</xscale>
+          <yscale>0.2327597</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP257" index="9">
+          <file>common.tall_building01.swf</file>
+          <x>326.8629625</x>
+          <y>194.8370375</y>
+          <xscale>0.4814986</xscale>
+          <yscale>0.4814986</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP258" index="8">
+          <file>common.tall_building02.swf</file>
+          <x>147.0453261</x>
+          <y>214.5215217</y>
+          <xscale>0.2767723</xscale>
+          <yscale>0.4199192</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">6994134</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP260" index="7">
+          <file>common.tall_building02.swf</file>
+          <x>147.022663</x>
+          <y>175.1784783</y>
+          <xscale>0.2767723</xscale>
+          <yscale>0.4199192</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">6994134</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP262" index="14">
+          <file>common.office_tower.swf</file>
+          <x>169.05</x>
+          <y>189.85</y>
+          <xscale>0.50035</xscale>
+          <yscale>0.50035</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP263" index="17">
+          <file>common.tall_building02.swf</file>
+          <x>113.95</x>
+          <y>203.7</y>
+          <xscale>0.4349593</xscale>
+          <yscale>0.4349593</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP264" index="19">
+          <file>common.ncc_bskbuilding01.swf</file>
+          <x>197.2595533</x>
+          <y>219.3</y>
+          <xscale>0.3821306</xscale>
+          <yscale>0.3821306</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP266" index="18">
+          <file>common.ncc_bskbuilding01.swf</file>
+          <x>74.1845533</x>
+          <y>219.25</y>
+          <xscale>0.3821306</xscale>
+          <yscale>0.3821306</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">13945276</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP267" index="6">
+          <file>common.ncc_battle_backdrop02.swf</file>
+          <x>321.95</x>
+          <y>214.4677202</y>
+          <xscale>1.2911918</xscale>
+          <yscale>1.2911918</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">1558535</color>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP268" index="5">
+          <file>common.ncc_jp_cloud02.swf</file>
+          <x>79.1</x>
+          <y>209.45</y>
+          <xscale>0.7565291</xscale>
+          <yscale>0.4699832</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP269" index="4">
+          <file>common.ncc_jp_cloud01.swf</file>
+          <x>180.0275707</x>
+          <y>186.65</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP270" index="3">
+          <file>common.ncc_jp_cloud03.swf</file>
+          <x>339.7</x>
+          <y>200.975</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP271" index="2">
+          <file>common.ncc_jp_cloud01.swf</file>
+          <x>518.425</x>
+          <y>186.65</y>
+          <xscale>1.1210034</xscale>
+          <yscale>1.1210034</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYOFGOANIMATEPROP272" index="1">
+          <file>common.msp_sun01.msp_sun01_ncc_sun01.swf</file>
+          <x>129.075</x>
+          <y>62.3603175</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+	</compositebg>
+	<compositebg id="samlivingroom" name="SamCraftTen's Living Room" enable="Y" default="N" thumb="samcraft_livingroom.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3164">
+		<bg id="SAMLIVINGBG143" index="0">
+			<file>common.wall10.swf</file>
+            <color r="ccColorA">261896</color>
+            <color r="ccColorB">1151211</color>
+            <color r="ccColorC">4532732</color>
+		</bg>
+		<prop id="SAMLIVINGPROP18" index="8">
+            <file>common.msp_sofa01.msp_sofa01_sofa01_front.swf</file>
+            <x>366.1746032</x>
+            <y>230.2603175</y>
+            <xscale>0.8360135</xscale>
+            <yscale>0.8360135</yscale>
+            <face>-1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">42242</color>
+        </prop>
+        <prop id="SAMLIVINGPROP19" index="9">
+          <file>common.msp_sofa01chair.msp_sofa01_sofa01_side.swf</file>
+          <x>552.2331159</x>
+          <y>272.4087052</y>
+          <xscale>0.8851284</xscale>
+          <yscale>0.8851284</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">42242</color>
+        </prop>
+        <prop id="SAMLIVINGPROP20" index="6">
+          <file>common.msp_capboard02.msp_capboard02_ncc_capboard02_front.swf</file>
+          <x>495.525</x>
+          <y>244.6299516</y>
+          <xscale>0.7390244</xscale>
+          <yscale>0.7390244</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">2281471</color>
+        </prop>
+        <prop id="SAMLIVINGPROP21" index="7">
+          <file>common.ncc_lamp03.swf</file>
+          <x>495.5</x>
+          <y>187.0103175</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">2220288</color>
+          <color r="ccColorB">239371</color>
+        </prop>
+        <prop id="SAMLIVINGPROP22" index="3">
+          <file>common.msp_window02.msp_window02_ncc_window_front_day.swf</file>
+          <x>294.9590164</x>
+          <y>132.7351321</y>
+          <xscale>1.0879259</xscale>
+          <yscale>1.0879259</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMLIVINGPROP24" index="2">
+          <file>common.msp_window02.msp_window02_ncc_window_front_day.swf</file>
+          <x>403.351776</x>
+          <y>132.7351321</y>
+          <xscale>1.0879259</xscale>
+          <yscale>1.0879259</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMLIVINGPROP25" index="10">
+          <file>common.msp_lamp01.msp_lamp01_ncc_lamp01_on.swf</file>
+          <x>349.575</x>
+          <y>30.8103175</y>
+          <xscale>1.2200684</xscale>
+          <yscale>1.2200684</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMLIVINGPROP26" index="4">
+          <file>common.msp_door01.msp_door01_door01_front_close.swf</file>
+          <x>133.5246032</x>
+          <y>177.35</y>
+          <xscale>0.8699187</xscale>
+          <yscale>0.8699187</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">50208</color>
+        </prop>
+        <prop id="SAMLIVINGPROP27" index="1">
+          <file>common.ncc_carpet01_front.swf</file>
+          <x>421.7775707</x>
+          <y>315.3103175</y>
+          <xscale>1.6048265</xscale>
+          <yscale>1.6048265</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">16717447</color>
+          <color r="ccColorB">449809</color>
+        </prop>
+        <prop id="SAMLIVINGPROP28" index="11">
+          <file>common.msp_shelves03.msp_shelves03_bookshelves_front.swf</file>
+          <x>491.826087</x>
+          <y>369.3603175</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">2281471</color>
+        </prop>
+        <prop id="SAMLIVINGPROP29" index="12">
+          <file>common.msp_flat_tv.msp_flat_tv_flat_tv_back.swf</file>
+          <x>491.8</x>
+          <y>295.0103175</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMLIVINGPROP30" index="5">
+          <file>common.ncc_air_con.swf</file>
+          <x>532.0573422</x>
+          <y>101.5676578</y>
+          <xscale>1.2936878</xscale>
+          <yscale>1.2936878</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+        </prop>
+	</compositebg>
+	<compositebg id="sambedroom" name="SamCraftTen's Bedroom" enable="Y" default="N" thumb="samcraft_bedroom.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3164">
+		<bg id="SAMBEDBG74" index="0">
+			<file>common.wall12.swf</file>
+            <color r="ccColorA">3860736</color>
+            <color r="ccColorB">1151211</color>
+            <color r="ccColorC">4532732</color>
+        </bg>
+		<prop id="SAMBEDPROP55" index="4">
+            <file>common.msp_bed01.msp_bed01_ncc_bed01_front.swf</file>
+            <x>205.6775707</x>
+            <y>230.8103175</y>
+            <xscale>0.6467137</xscale>
+            <yscale>0.6467137</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+            <color r="ccColorA">0</color>
+            <color r="ccColorB">16318464</color>
+        </prop>
+        <prop id="SAMBEDPROP56" index="6">
+          <file>common.msp_pillow01.msp_pillow01_msp_poster01_ncc_pillow01_front.swf</file>
+          <x>264.476087</x>
+          <y>208.3592146</y>
+          <xscale>0.6314165</xscale>
+          <yscale>0.6314165</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">16698673</color>
+        </prop>
+        <prop id="SAMBEDPROP58" index="5">
+          <file>common.msp_pillow01.msp_pillow01_msp_poster01_ncc_pillow01_front.swf</file>
+          <x>219.926087</x>
+          <y>208.3592146</y>
+          <xscale>0.6314165</xscale>
+          <yscale>0.6314165</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">16698673</color>
+        </prop>
+        <prop id="SAMBEDPROP59" index="7">
+          <file>common.msp_blanket01.msp_blanket01_ncc_blanket01_front_empty.swf</file>
+          <x>184.706774</x>
+          <y>247.8932985</y>
+          <xscale>0.648794</xscale>
+          <yscale>0.648794</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">13893632</color>
+        </prop>
+        <prop id="SAMBEDPROP60" index="3">
+          <file>common.msp_window01.msp_window01_ncc_window01_side_day.swf</file>
+          <x>143.725</x>
+          <y>149.3333333</y>
+          <xscale>0.6855547</xscale>
+          <yscale>0.6855547</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMBEDPROP61" index="8">
+          <file>common.msp_shelves01.msp_shelves01_shelves01_front.swf</file>
+          <x>252.925</x>
+          <y>135.6603175</y>
+          <xscale>0.568996</xscale>
+          <yscale>0.568996</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">42242</color>
+        </prop>
+        <prop id="SAMBEDPROP63" index="9">
+          <file>common.msp_clock02.msp_clock02_ncc_clock02.swf</file>
+          <x>230.3168748</x>
+          <y>121.2164586</y>
+          <xscale>0.6583429</xscale>
+          <yscale>0.6583429</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">16449280</color>
+        </prop>
+        <prop id="SAMBEDPROP64" index="10">
+          <file>common.msp_office_desk.msp_office_desk_office_desk_front.swf</file>
+          <x>406.226087</x>
+          <y>217.4</y>
+          <xscale>0.5273452</xscale>
+          <yscale>0.5273452</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">7956536</color>
+        </prop>
+        <prop id="SAMBEDPROP65" index="2">
+          <file>common.msp_hdoor04.msp_hdoor04_ncc_hdoor04_front_closed.swf</file>
+          <x>553.6185714</x>
+          <y>175.75</y>
+          <xscale>0.7428571</xscale>
+          <yscale>0.7428571</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMBEDPROP29" index="11">
+          <file>common.msp_flat_tv.msp_flat_tv_flat_tv_front.swf</file>
+          <x>409.9775707</x>
+          <y>163.4103175</y>
+          <xscale>0.4837582</xscale>
+          <yscale>0.4837582</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMBEDPROP66" index="12">
+          <file>common.msp_keyboard01.msp_keyboard01_ncc_keyboard_front.swf</file>
+          <x>396.675</x>
+          <y>190.975</y>
+          <xscale>0.3808886</xscale>
+          <yscale>0.3808886</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMBEDPROP67" index="14">
+          <file>common.interview_chair.swf</file>
+          <x>362.6382353</x>
+          <y>223.9537789</y>
+          <xscale>0.848845</xscale>
+          <yscale>0.848845</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMBEDPROP68" index="13">
+          <file>common.msp_compcase01.msp_compcase01_ncc_compcase_front.swf</file>
+          <x>465.9058824</x>
+          <y>226.5</y>
+          <xscale>0.534585</xscale>
+          <yscale>0.534585</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="SAMBEDPROP69" index="1">
+          <file>common.msp_poster01.msp_poster01_ncc_poster01_front.swf</file>
+          <x>413.6666667</x>
+          <y>106.65</y>
+          <xscale>0.9312557</xscale>
+          <yscale>0.9312557</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+	</compositebg>
+	<compositebg id="citystreet" name="City Street" enable="Y" default="N" thumb="city_street.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3164">
+		<bg id="CITYSTREETBG875" index="0">
+			<file>common.white_house_ext_bg.swf</file>
+		</bg>
+		<prop id="CITYSTREETPROP207" index="1">
+            <file>common.ncc_mountain_backdrop01.swf</file>
+            <x>264.775</x>
+            <y>63.453162</y>
+            <xscale>0.8735214</xscale>
+            <yscale>0.8735214</yscale>
+            <face>1</face>
+            <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP206" index="2">
+          <file>common.ncc_mountain_backdrop02.swf</file>
+          <x>279.2777417</x>
+          <y>82.4239253</y>
+          <xscale>0.8903316</xscale>
+          <yscale>0.8903316</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP299" index="3">
+          <file>common.backdrop.swf</file>
+          <x>297.6210007</x>
+          <y>108.6239253</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP198" index="4">
+          <file>common.tall_building02.swf</file>
+          <x>241.075</x>
+          <y>115.85</y>
+          <xscale>0.4255112</xscale>
+          <yscale>0.4255112</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP185" index="5">
+          <file>common.ncc_sniper_grasscover.swf</file>
+          <x>177.3916512</x>
+          <y>233.7916512</y>
+          <xscale>0.6669755</xscale>
+          <yscale>0.6669755</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+          <color r="ccColorA">4295474</color>
+        </prop>
+        <prop id="CITYSTREETPROP284" index="6">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>-10.375</x>
+          <y>276.75</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP283" index="7">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>71.775</x>
+          <y>276.85</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP282" index="8">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>166.5352478</x>
+          <y>276.8</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP173" index="9">
+          <file>common.msp_road01.msp_road01_road01.swf</file>
+          <x>80.6031243</x>
+          <y>326</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP174" index="10">
+          <file>common.msp_road01.msp_road01_road02.swf</file>
+          <x>279.3352478</x>
+          <y>326.05</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP281" index="11">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>264.8031243</x>
+          <y>276.8</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP175" index="12">
+          <file>common.msp_road01.msp_road01_road01.swf</file>
+          <x>476.0210007</x>
+          <y>326</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP183" index="13">
+          <file>common.msp_road01.msp_road01_road01.swf</file>
+          <x>675.6031243</x>
+          <y>326</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP279" index="14">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath02.swf</file>
+          <x>366.3852478</x>
+          <y>276.85</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP280" index="15">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>462.9210007</x>
+          <y>276.85</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP296" index="16">
+          <file>common.tall_building01.swf</file>
+          <x>481.8710007</x>
+          <y>78.4</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP295" index="17">
+          <file>common.ncc_rbuilding01.swf</file>
+          <x>427.2352478</x>
+          <y>89.7239253</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP289" index="18">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>551.625</x>
+          <y>276.85</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP290" index="19">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>633.775</x>
+          <y>276.95</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP291" index="20">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>728.5352478</x>
+          <y>276.9</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP292" index="21">
+          <file>common.msp_pavement01.msp_pavement01_ncc_footpath01.swf</file>
+          <x>826.8031243</x>
+          <y>276.9</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP300" index="22">
+          <file>common.bushes.swf</file>
+          <x>232.075</x>
+          <y>177.55</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP294" index="23">
+          <file>common.ncc_sniper_buildings.swf</file>
+          <x>536.475</x>
+          <y>126.85</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP251" index="24">
+          <file>common.school_ext_tree02.swf</file>
+          <x>134.5210007</x>
+          <y>132.8</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP297" index="25">
+          <file>common.ncc_bskbuilding01.swf</file>
+          <x>351.825</x>
+          <y>196.8</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP298" index="26">
+          <file>common.ncc_bskbuilding02.swf</file>
+          <x>520.4352478</x>
+          <y>185.45</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP255" index="27">
+          <file>common.street_lamp.swf</file>
+          <x>176.05</x>
+          <y>212.05</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+        </prop>
+        <prop id="CITYSTREETPROP257" index="28">
+          <file>common.street_lamp.swf</file>
+          <x>529.25</x>
+          <y>212.05</y>
+          <xscale>1</xscale>
+          <yscale>1</yscale>
+          <face>-1</face>
+          <rotation>0</rotation>
+        </prop>
 	</compositebg>
 	<compositebg id="adirtytoilet" name="Dirty Toilet" enable="Y" default="N" thumb="toilet_dirty.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3165">
 		<bg id="TOILETDIRTYBG0" index="0">
@@ -1171,6 +4513,146 @@
 			<rotation>0</rotation>
 		</prop>
 	</compositebg>
+	<compositebg id="rw_checkpoint" name="Checkpoint" enable="Y" default="N" thumb="checkpoint_bg.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="12554">
+	<bg id="rw_checkpoint_BG4" index="0">
+		<file>common.rw_checkpoint_bg.swf</file>
+	</bg>
+	<prop id="rw_checkpoint_PROP2" index="2">
+		<file>common.rw_sandbag.swf</file>
+		<x>99</x>
+		<y>268</y>
+		<xscale>1.1</xscale>
+		<yscale>1.1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="rw_checkpoint_PROP3" index="3">
+		<file>common.rw_sandbag.swf</file>
+		<x>77</x>
+		<y>209</y>
+		<xscale>0.8</xscale>
+		<yscale>0.8</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="rw_checkpoint_PROP4" index="4">
+		<file>common.rw_box.swf</file>
+		<x>31</x>
+		<y>303</y>
+		<xscale>1.31</xscale>
+		<yscale>1.31</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="rw_checkpoint_PROP5" index="5">
+		<file>common.rw_box.swf</file>
+		<x>32</x>
+		<y>239</y>
+		<xscale>1.09</xscale>
+		<yscale>1.09</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+	<prop id="rw_checkpoint_PROP6" index="8">
+		<file>common.rw_checkpoint01.swf</file>
+		<x>266.2</x>
+		<y>249.6</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="rw_forest02" name="Forest" enable="Y" default="N" thumb="forest02_bg.jpg" display_order="10" is_premium="N" money="0" sharing="0" aid="12556">
+	<bg id="rw_forest02_BG27" index="0">
+		<file>common.rw_forest02_bg.swf</file>
+	</bg>
+	<prop id="rw_forest02_PROP3" index="2">
+		<file>common.rw_forest02.swf</file>
+		<x>322.6</x>
+		<y>161.7</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="rw_forest03" name="Forest - Panning Left" enable="Y" default="N" thumb="forest03_bg.jpg" display_order="11" is_premium="N" money="0" sharing="0" aid="12555">
+	<bg id="rw_forest03_BG24" index="0">
+		<file>common.rw_forest03_bg.swf</file>
+	</bg>
+	<prop id="rw_forest03_PROP2" index="1">
+		<file>common.rw_forest01.swf</file>
+		<x>310.5</x>
+		<y>324.4</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="rw_forest04" name="Forest - Panning Right" enable="Y" default="N" thumb="forest04_bg.jpg" display_order="12" is_premium="N" money="0" sharing="0" aid="12557">
+	<bg id="rw_forest04_BG23" index="0">
+		<file>common.rw_forest04_bg.swf</file>
+	</bg>
+	<prop id="rw_forest04_PROP2" index="1">
+		<file>common.rw_forest01.swf</file>
+		<x>310.5</x>
+		<y>324.4</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="rw_river02" name="River" enable="Y" default="N" thumb="river02_bg.jpg" display_order="20" is_premium="N" money="0" sharing="0" aid="12560">
+	<bg id="rw_river02_BG6" index="0">
+		<file>common.rw_river02_bg.swf</file>
+	</bg>
+</compositebg>
+	<compositebg id="rw_river03" name="River - Panning Left" enable="Y" default="N" thumb="river03_bg.jpg" display_order="21" is_premium="N" money="0" sharing="0" aid="12559">
+	<bg id="rw_river03_BG10" index="0">
+		<file>common.rw_river03_bg.swf</file>
+	</bg>
+	<prop id="rw_river03_PROP2" index="1">
+		<file>common.rw_forest01.swf</file>
+		<x>310.5</x>
+		<y>324.4</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="rw_river01" name="River - Panning Right" enable="Y" default="N" thumb="river01_bg.jpg" display_order="22" is_premium="N" money="0" sharing="0" aid="12558">
+	<bg id="rw_river01_BG20" index="0">
+		<file>common.rw_river01_bg.swf</file>
+	</bg>
+	<prop id="rw_river01_PROP2" index="1">
+		<file>common.rw_forest01.swf</file>
+		<x>310.5</x>
+		<y>324.4</y>
+		<xscale>1</xscale>
+		<yscale>1</yscale>
+		<face>-1</face>
+		<rotation>0</rotation>
+	</prop>
+</compositebg>
+	<compositebg id="rw_sky02" name="Skyline" enable="Y" default="N" thumb="sky_02.jpg" display_order="30" is_premium="N" money="0" sharing="0" aid="12562">
+	<bg id="rw_sky02_BG53" index="0">
+		<file>common.rw_sky02_bg.swf</file>
+	</bg>
+</compositebg>
+	<compositebg id="rw_sky01" name="Skyline - Panning Left" enable="Y" default="N" thumb="sky_01.jpg" display_order="31" is_premium="N" money="0" sharing="0" aid="12561">
+	<bg id="rw_sky01_BG49" index="0">
+		<file>common.rw_sky01_bg.swf</file>
+	</bg>
+</compositebg>
+	<compositebg id="rw_sky03" name="Skyline - Panning Right" enable="Y" default="N" thumb="sky_03.jpg" display_order="32" is_premium="N" money="0" sharing="0" aid="12563">
+	<bg id="rw_sky03_BG51" index="0">
+		<file>common.rw_sky03_bg.swf</file>
+	</bg>
+</compositebg>
 	<compositebg id="cbg_ncc_blank" name="Blank" enable="Y" default="N" thumb="ncc_blank.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="11529">
 		<bg id="cbg_ncc_blank_BG10" index="0">
 			<file>common.wall11.swf</file>
@@ -15412,6 +18894,16 @@
 			<file>common.ncc_underground.swf</file>
 		</bg>
 	</compositebg>
+	<compositebg id="cbg_grassyhills_day" name="Grassy Hills - Day" enable="Y" default="N" thumb="grassyhills_day.jpg" display_order="704" is_premium="N" money="0" sharing="0" aid="17348">
+		<bg id="cbg_grassyhills_day_BG108" index="0">
+			<file>common.grassyhills_day_bg.swf</file>
+		</bg>
+	</compositebg>
+	<compositebg id="cbg_grassyhills_night" name="Grassy Hills - Night" enable="Y" default="N" thumb="grassyhills_night.jpg" display_order="705" is_premium="N" money="0" sharing="0" aid="17348">
+		<bg id="cbg_grassyhills_night_BG109" index="0">
+			<file>common.grassyhills_night_bg.swf</file>
+		</bg>
+	</compositebg>
 	<prop id="ncc_aircon01.swf" name="Vent" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11337" money="0" sharing="0" />
 	<prop id="msp_cake01" name="Cake" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cake01_ncc_cake01_full.swf" enable="Y" is_premium="N" aid="11355" money="0" sharing="0">
 		<state id="msp_cake01_ncc_cake01_cut.swf" name="sliced" enable="Y" />
@@ -15689,6 +19181,206 @@
 	<prop id="teddy_bear.swf" name="Teddy Bear" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4769" money="0" sharing="0" handstyle="flat" />
 	<prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5011" money="0" sharing="0" handstyle="flat" />
 	<prop id="egg_break.swf" name="Egg Breaking" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5012" money="0" sharing="0" />
+	<prop id="office_tower.swf" name="Office tower" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25949" money="0" sharing="0" />
+	<prop id="telecom_tower.swf" name="Telecom tower" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="25949" money="0" sharing="0" />
+	<prop id="ncc_jptree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14652" money="0" sharing="0"/>
+	<prop id="ncc_jptree01.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14653" money="0" sharing="0"/>
+	<prop id="msp_jptable01" name="School desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jptable01_ncc_jptable01_front.swf" enable="Y" is_premium="N" aid="14654" money="0" sharing="0">
+		<state id="msp_jptable01_ncc_jptable01_front.swf" name="side" enable="Y" default="Y"/>
+		<state id="msp_jptable01_ncc_jptable01_back.swf" name="side - back" enable="Y"/>
+		<state id="msp_jptable01_ncc_jptable01_cus.swf" name="front" enable="Y"/>
+	</prop>
+	<prop id="msp_jpcabinet02" name="Shelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcabinet02_ncc_jpcabinet02_front.swf" enable="Y" is_premium="N" aid="14658" money="0" sharing="0">
+		<state id="msp_jpcabinet02_ncc_jpcabinet02_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpcabinet02_ncc_jpcabinet02_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpcabinet02_ncc_jpcabinet02_cus.swf" name="flattened" enable="Y"/>
+	</prop>
+	<prop id="msp_jpcabinet03" name="Shelves" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcabinet03_ncc_jpstorage01_cus.swf" enable="Y" is_premium="N" aid="14662" money="0" sharing="0">
+		<state id="msp_jpcabinet03_ncc_jpstorage01_cus.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpcabinet03_ncc_jpstorage02_cus.swf" name="individual block" enable="Y"/>
+	</prop>
+	<prop id="msp_jprectangle02" name="Brick wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jprectangle02_ncc_jprectangle02_front.swf" enable="Y" is_premium="N" aid="14665" money="0" sharing="0">
+		<state id="msp_jprectangle02_ncc_jprectangle02_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jprectangle02_ncc_jprectangle02_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jprectangle" name="Concrete wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jprectangle_ncc_jprectangle_front.swf" enable="Y" is_premium="N" aid="14668" money="0" sharing="0">
+		<state id="msp_jprectangle_ncc_jprectangle_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jprectangle_ncc_jprectangle_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="ncc_jpposter01.swf" name="Poster" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14671" money="0" sharing="0"/>
+	<prop id="msp_jpplatform" name="Wooden planks" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpplatform_ncc_jpplatform_front.swf" enable="Y" is_premium="N" aid="14672" money="0" sharing="0">
+		<state id="msp_jpplatform_ncc_jpplatform_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpplatform_ncc_jpplaform_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="ncc_jpmemoboard.swf" name="Corkboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14675" money="0" sharing="0"/>
+	<prop id="msp_jplocker01" name="Lockers" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jplocker01_ncc_jplocker01_front.swf" enable="Y" is_premium="N" aid="14676" money="0" sharing="0">
+		<state id="msp_jplocker01_ncc_jplocker01_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_cus.swf" name="front - flattened" enable="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_open.swf" name="side - opened" enable="Y"/>
+		<state id="msp_jplocker01_ncc_jplocker01_side.swf" name="side - closed" enable="Y"/>
+	</prop>
+	<prop id="msp_jpfence01" name="Fences" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpfence01_ncc_jpfence01.swf" enable="Y" is_premium="N" aid="14681" money="0" sharing="0">
+		<state id="msp_jpfence01_ncc_jpfence01.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpfence01_ncc_jpfence03.swf" name="side" enable="Y"/>
+		<state id="msp_jpfence01_ncc_jpfence02.swf" name="corner" enable="Y"/>
+	</prop>
+	<prop id="msp_jpdoubledoor" name="Sliding doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf" enable="Y" is_premium="N" aid="14685" money="0" sharing="0">
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_side_open.swf" name="side - open" enable="Y" default="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_side_closed.swf" name="side - closed" enable="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_front_open.swf" name="front - opened" enable="Y"/>
+		<state id="msp_jpdoubledoor_ncc_jpdoubledoor_front_close.swf" name="front - closed" enable="Y"/>
+	</prop>
+	<prop id="msp_jpcupboard02" name="Cupboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcupboard02_ncc_jpcupboard02_front.swf" enable="Y" is_premium="N" aid="14690" money="0" sharing="0">
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_front.swf" name="front - closed" enable="Y" default="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_frontopen.swf" name="front - opened" enable="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_sideopen.swf" name="side - opened" enable="Y"/>
+		<state id="msp_jpcupboard02_ncc_jpcupboard02_side.swf" name="side - closed" enable="Y"/>
+	</prop>
+	<prop id="msp_jpcrmtable01" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcrmtable01_ncc_jpcrmtable01_front.swf" enable="Y" is_premium="N" aid="14695" money="0" sharing="0">
+		<state id="msp_jpcrmtable01_ncc_jpcrmtable01_front.swf" name="side" enable="Y" default="Y"/>
+		<state id="msp_jpcrmtable01_ncc_jpcrmtable01_cus.swf" name="side 2" enable="Y"/>
+	</prop>
+	<prop id="msp_jpchair" name="School chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpchair_ncc_jpchair_side.swf" enable="Y" is_premium="N" aid="14698" money="0" sharing="0">
+		<state id="msp_jpchair_ncc_jpchair_side.swf" name="side" enable="Y" default="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_back.swf" name="back" enable="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_back2.swf" name="back of the chair" enable="Y"/>
+		<state id="msp_jpchair_ncc_jpchair_cus.swf" name="front" enable="Y"/>
+	</prop>
+	<prop id="msp_jpcabinet" name="Drawers" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpcabinet_ncc_jpcabinet_front.swf" enable="Y" is_premium="N" aid="14703" money="0" sharing="0">
+		<state id="msp_jpcabinet_ncc_jpcabinet_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpcabinet_ncc_jpcabinet_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpcabinet_ncc_jpcabinet_cus.swf" name="flattened" enable="Y"/>
+	</prop>
+	<prop id="ncc_jp_sign_school_front.swf" name="Empty sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14707" money="0" sharing="0"/>
+	<prop id="msp_jp_sign_exit" name="Exit sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_sign_exit_ncc_jp_sign_exit_front.swf" enable="Y" is_premium="N" aid="14708" money="0" sharing="0">
+		<state id="msp_jp_sign_exit_ncc_jp_sign_exit_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jp_sign_exit_ncc_jp_sign_exit_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jp_sign_class" name="Classroom sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_sign_class_ncc_jp_sign_class_front.swf" enable="Y" is_premium="N" aid="14711" money="0" sharing="0">
+		<state id="msp_jp_sign_class_ncc_jp_sign_class_front.swf" name="front - 1A" enable="Y" default="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class2_front.swf" name="front - empty" enable="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class_side.swf" name="side - right" enable="Y"/>
+		<state id="msp_jp_sign_class_ncc_jp_sign_class_cus.swf" name="side - left" enable="Y"/>
+	</prop>
+	<prop id="ncc_jp_cloud03.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14716" money="0" sharing="0"/>
+	<prop id="ncc_jp_cloud02.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14717" money="0" sharing="0"/>
+	<prop id="ncc_jp_cloud01.swf" name="Cloud" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14718" money="0" sharing="0"/>
+	<prop id="msp_jpsllocker01" name="Lockers" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpsllocker01_ncc_jpsllocker01_close.swf" enable="Y" is_premium="N" aid="14719" money="0" sharing="0">
+		<state id="msp_jpsllocker01_ncc_jpsllocker01_close.swf" name="front - closed" enable="Y" default="Y"/>
+		<state id="msp_jpsllocker01_ncc_jpsllocker01_open.swf" name="front - opened" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall03" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall03_ncc_jpwall03_front.swf" enable="Y" is_premium="N" aid="14722" money="0" sharing="0">
+		<state id="msp_jpwall03_ncc_jpwall03_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall03_ncc_jpwall03_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall04" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall04_ncc_jpwall04_front.swf" enable="Y" is_premium="N" aid="14725" money="0" sharing="0">
+		<state id="msp_jpwall04_ncc_jpwall04_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall04_ncc_jpwall04_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall01" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall01_ncc_jpwall01_front.swf" enable="Y" is_premium="N" aid="14728" money="0" sharing="0">
+		<state id="msp_jpwall01_ncc_jpwall01_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall01_ncc_jpwall01_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall02" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall02_ncc_jpwall02_front.swf" enable="Y" is_premium="N" aid="14731" money="0" sharing="0">
+		<state id="msp_jpwall02_ncc_jpwall02_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall02_ncc_jpwall02_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall05" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall05_ncc_jpwall05_front.swf" enable="Y" is_premium="N" aid="14734" money="0" sharing="0">
+		<state id="msp_jpwall05_ncc_jpwall05_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall05_ncc_jpwall05_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall06" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall06_ncc_jpwall06_front.swf" enable="Y" is_premium="N" aid="14737" money="0" sharing="0">
+		<state id="msp_jpwall06_ncc_jpwall06_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall06_ncc_jpwall06_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall07" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall07_ncc_jpwall07_front.swf" enable="Y" is_premium="N" aid="14740" money="0" sharing="0">
+		<state id="msp_jpwall07_ncc_jpwall07_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall07_ncc_jpwall07_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall08" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall08_ncc_jpwall08_front.swf" enable="Y" is_premium="N" aid="14743" money="0" sharing="0">
+		<state id="msp_jpwall08_ncc_jpwall08_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall08_ncc_jpwall08_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpwall09" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpwall09_ncc_jpwall09_front.swf" enable="Y" is_premium="N" aid="14746" money="0" sharing="0">
+		<state id="msp_jpwall09_ncc_jpwall09_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jpwall09_ncc_jpwall09_side.swf" name="side" enable="Y"/>
+		<state id="msp_jpwall09_ncc_jpwall09_front2.swf" name="front 2" enable="Y"/>
+	</prop>
+	<prop id="msp_jp_window_display" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_window_display_ncc_jp_window_display.swf" enable="Y" is_premium="N" aid="14750" money="0" sharing="0">
+		<state id="msp_jp_window_display_ncc_jp_window_display.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jp_window_display_ncc_jp_window_display_side.swf" name="side" enable="Y"/>
+		<state id="msp_jp_window_display_ncc_jp_window_display_cus.swf" name="side 2" enable="Y"/>
+	</prop>
+	<prop id="ncc_jp_schoolentrance01.swf" name="School entrance" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14754" money="0" sharing="0"/>
+	<prop id="msp_jp_road01" name="Pavement" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jp_road01_ncc_jp_road01_front.swf" enable="Y" is_premium="N" aid="14755" money="0" sharing="0">
+		<state id="msp_jp_road01_ncc_jp_road01_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_jp_road01_ncc_jp_road01_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="ncc_jp_plants02.swf" name="Bush" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14758" money="0" sharing="0"/>
+	<prop id="msp_cork_jpboard" name="Blackboard" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cork_jpboard_ncc_cork_jpboard_front.swf" enable="Y" is_premium="N" aid="14759" money="0" sharing="0">
+		<state id="msp_cork_jpboard_ncc_cork_jpboard_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_cork_jpboard_ncc_cork_jpboard_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_jpsllocker02" name="Locker" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_jpsllocker02_ncc_jpsllocker02_close.swf" enable="Y" is_premium="N" aid="14762" money="0" sharing="0">
+		<state id="msp_jpsllocker02_ncc_jpsllocker02_close.swf" name="closed" enable="Y" default="Y"/>
+		<state id="msp_jpsllocker02_ncc_jpsllocker02_open.swf" name="opened" enable="Y"/>
+		<state id="msp_jpsllocker02_ncc_jpsllocker02_cus.swf" name="opened - mops" enable="Y"/>
+	</prop>
+	<prop id="ncc_jpbook_front.swf" name="Notebook" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14766" money="0" sharing="0"/>
+	<prop id="ncc_jpslfire.swf" name="Fire extinguisher" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14767" money="0" sharing="0"/>
+	<prop id="square01.swf" name="jp_square" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14768" money="0" sharing="0"/>
+	<prop id="backdrop.swf" name="jp_backdrop" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14769" money="0" sharing="0"/>
+	<prop id="msp_sniper_rooftop" name="jp_sniper_rooftop" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sniper_rooftop_ncc_sniper_rooftop03.swf" enable="Y" is_premium="N" aid="14770" money="0" sharing="0">
+		<state id="msp_sniper_rooftop_ncc_sniper_rooftop02.swf" name="half" enable="Y"/>
+		<state id="msp_sniper_rooftop_ncc_sniper_rooftop03.swf" name="full" enable="Y"/>
+	</prop>
+	<prop id="ncc_jp_grasscover.swf" name="patch of grass" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14973" money="0" sharing="0"/>
+	<prop id="ncc_jp_grass.swf" name="Grass" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="14974" money="0" sharing="0"/>
+	<prop id="ncc_jp_bear.swf" name="Teddy bear" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15003" money="0" sharing="0"/>
+	<prop id="ncc_jp_cake.swf" name="Cake" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15004" money="0" sharing="0"/>
+	<prop id="ncc_jp_deco01.swf" name="Street light" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15005" money="0" sharing="0"/>
+	<prop id="ncc_jp_warmtable.swf" name="Table" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15006" money="0" sharing="0"/>
+	<prop id="ncc_ninja_aircon01.swf" name="Air conditioning" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15007" money="0" sharing="0"/>
+	<prop id="ncc_ninja_bamboo.swf" name="Bamboo decoration" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15008" money="0" sharing="0"/>
+	<prop id="msp_ninja_bed" name="Bed" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_bed_ncc_ninja_bed02.swf" enable="Y" is_premium="N" aid="15009" money="0" sharing="0">
+		<state id="msp_ninja_bed_ncc_ninja_bed01.swf" name="Bed only" enable="Y"/>
+		<state id="msp_ninja_bed_ncc_ninja_bed02.swf" name="Bed with blanket" enable="Y" default="Y"/>
+		<state id="msp_ninja_bed_ncc_ninja_blanket01.swf" name="Blanket only" enable="Y"/>
+		<state id="msp_ninja_bed_ncc_ninja_blanket02.swf" name="Blanket only - someone under" enable="Y"/>
+	</prop>
+	<prop id="ncc_ninja_chair01.swf" name="Office chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15014" money="0" sharing="0"/>
+	<prop id="msp_ninja_desk01" name="Desk" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_desk01_ncc_ninja_desk01.swf" enable="Y" is_premium="N" aid="15015" money="0" sharing="0">
+		<state id="msp_ninja_desk01_ncc_ninja_desk01.swf" name="side - books" enable="Y" default="Y"/>
+		<state id="msp_ninja_desk01_ncc_ninja_desk02.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="ncc_ninja_drawer01.swf" name="Drawers" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15018" money="0" sharing="0"/>
+	<prop id="ncc_ninja_flower.swf" name="Flower" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15019" money="0" sharing="0"/>
+	<prop id="ncc_jp_house01.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15020" money="0" sharing="0"/>
+	<prop id="ncc_jp_house02.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15021" money="0" sharing="0"/>
+	<prop id="ncc_jp_house03.swf" name="House" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15022" money="0" sharing="0"/>
+	<prop id="ncc_ninja_lamp01.swf" name="Lamp" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="15023" money="0" sharing="0"/>
+	<prop id="msp_ninja_tatami" name="Tatami" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_tatami_ncc_ninja_tatami.swf" enable="Y" is_premium="N" aid="15024" money="0" sharing="0">
+		<state id="msp_ninja_tatami_ncc_ninja_tatami.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_ninja_tatami_ncc_ninja_tatami2.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_ninja_tv" name="Old TV set" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_tv_ncc_ninja_tv01_front.swf" enable="Y" is_premium="N" aid="15027" money="0" sharing="0">
+		<state id="msp_ninja_tv_ncc_ninja_tv01_front.swf" name="front - off" enable="Y" default="Y"/>
+		<state id="msp_ninja_tv_ncc_ninja_tv01_side.swf" name="side - off" enable="Y"/>
+		<state id="msp_ninja_tv_ncc_ninja_tv02_front.swf" name="front - on" enable="Y"/>
+		<state id="msp_ninja_tv_ncc_ninja_tv02_side.swf" name="side - on" enable="Y"/>
+	</prop>
+	<prop id="msp_ninja_window" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_window_ncc_ninja_window01.swf" enable="Y" is_premium="N" aid="15032" money="0" sharing="0">
+		<state id="msp_ninja_window_ncc_ninja_window01.swf" name="side - closed" enable="Y" default="Y"/>
+		<state id="msp_ninja_window_ncc_ninja_window02.swf" name="side - opened" enable="Y"/>
+	</prop>
+	<prop id="msp_ninja_wall03" name="Wooden wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_wall03_ncc_ninja_wall03_front.swf" enable="Y" is_premium="N" aid="15035" money="0" sharing="0">
+		<state id="msp_ninja_wall03_ncc_ninja_wall03_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_ninja_wall03_ncc_ninja_wall03_side.swf" name="side" enable="Y"/>
+	</prop>
+	<prop id="msp_ninja_door01" name="Sliding doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ninja_door01_ncc_ninja_door01_close.swf" enable="Y" is_premium="N" aid="15038" money="0" sharing="0">
+		<state id="msp_ninja_door01_ncc_ninja_door01_close.swf" name="close" enable="Y" default="Y"/>
+		<state id="msp_ninja_door01_ncc_ninja_door01_open.swf" name="open" enable="Y"/>
+	</prop>
 	<prop id="msp_flat_tv" name="Flat screen TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_flat_tv_flat_tv_front.swf" enable="Y" is_premium="N" aid="10463" money="0" sharing="0">
 		<state id="msp_flat_tv_flat_tv_front.swf" name="front" enable="Y" default="Y" />
 		<state id="msp_flat_tv_flat_tv_front_non.swf" name="front transparent" enable="Y" />
@@ -15706,6 +19398,10 @@
 	<prop id="msp_sofa01" name="sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa01_sofa01_front.swf" enable="Y" is_premium="N" aid="10475" money="0" sharing="0">
 		<state id="msp_sofa01_sofa01_front.swf" name="front" enable="Y" default="Y" />
 		<state id="msp_sofa01_sofa01_side.swf" name="side" enable="Y" />
+	</prop>
+	<prop id="msp_sofa01chair" name="sofa (chair version)" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa01_sofa01_front.swf" enable="Y" is_premium="N" aid="10475" money="0" sharing="0">
+		<state id="msp_sofa01_sofa01_front.swf" name="front" enable="Y" default="Y"/>
+		<state id="msp_sofa01_sofa01_side.swf" name="side" enable="Y"/>
 	</prop>
 	<prop id="msp_sofa02" name="sofa" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_sofa02_sofa02_front.swf" enable="Y" is_premium="N" aid="10478" money="0" sharing="0">
 		<state id="msp_sofa02_sofa02_front.swf" name="front" enable="Y" default="Y" />
@@ -15782,6 +19478,9 @@
 	<prop id="window_display.swf" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10540" money="0" sharing="0" />
 	<prop id="double_door.swf" name="Doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10541" money="0" sharing="0" />
 	<prop id="shop.swf" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10542" money="0" sharing="0" />
+	<prop id="school_ext_tree01.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9587" money="0" sharing="0"/>
+    <prop id="school_ext_tree02.swf" name="Tree" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="9588" money="0" sharing="0"/>
+	<prop id="ncc_signnationalredwoods.swf" name="National Redwoods Sign" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="9588" money="0" sharing="0"/>
 	<prop id="msp_laptop" name="Laptop computer" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_laptop_laptop_front.swf" enable="Y" is_premium="N" aid="10543" money="0" sharing="0">
 		<state id="msp_laptop_laptop_front.swf" name="front" enable="Y" default="Y" />
 		<state id="msp_laptop_laptop_front_empty.swf" name="front transparent" enable="Y" />
@@ -15869,6 +19568,12 @@
 		<state id="msp_name_stand_ncc_name_stand03.swf" name="officer" enable="Y" />
 		<state id="msp_name_stand_ncc_name_stand04.swf" name="secretary" enable="Y" />
 	</prop>
+        <prop id="msp_nintendo_switch" name="Nintendo Switch" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_nintendo_switch_ncc_nintendo_switch_front.swf" enable="Y" is_premium="N" aid="10932" money="0" sharing="0">
+		<state id="msp_nintendo_switch_ncc_nintendo_switch_front.swf" name="Front" enable="Y" default="Y" />
+		<state id="msp_nintendo_switch_ncc_nintendo_switch_side.swf" name="Side" enable="Y" />
+		<state id="msp_nintendo_switch_ncc_nintendo_switch_sideback.swf" name="Sideback" enable="Y" />
+		<state id="msp_nintendo_switch_ncc_nintendo_switch_back.swf" name="Back" enable="Y" />
+	</prop>
 	<prop id="msp_fridge" name="Fridge" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_fridge_fridge_front_close.swf" enable="Y" is_premium="N" aid="10602" money="0" sharing="0">
 		<state id="msp_fridge_fridge_front_close.swf" name="front closed" enable="Y" default="Y" />
 		<state id="msp_fridge_fridge_front_open.swf" name="front opened" enable="Y" />
@@ -15922,6 +19627,8 @@
 	<prop id="msp_door01" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_door01_door01_front_close.swf" enable="Y" is_premium="N" aid="10639" money="0" sharing="0">
 		<state id="msp_door01_door01_front_close.swf" name="front closed" enable="Y" default="Y" />
 		<state id="msp_door01_door01_front_open.swf" name="front opened" enable="Y" />
+		<state id="msp_door02_door01_side_close.swf" name="side closed" enable="Y" />
+		<state id="msp_door02_door01_side_open.swf" name="side opened" enable="Y" />
 	</prop>
 	<prop id="msp_door02" name="Door" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_door02_door01_side_close.swf" enable="Y" is_premium="N" aid="10642" money="0" sharing="0">
 		<state id="msp_door02_door01_side_close.swf" name="side closed" enable="Y" default="Y" />
@@ -17345,6 +21052,93 @@
 	<prop id="nccha_spooky_pipe01.swf" name="Pipes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11185" money="0" sharing="0" />
 	<prop id="nccha_spooky_pipe02.swf" name="Pipes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11186" money="0" sharing="0" />
 	<prop id="nccha_elcontrol_panel.swf" name="Control panel" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11187" money="0" sharing="0" />
+	<prop id="rw_checkpoint01.swf" name="Gate" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12476" money="0" sharing="0"/>
+	<prop id="rw_forest01.swf" name="Bushes" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="12477" money="0" sharing="0"/>
+	<prop id="rw_forest02.swf" name="Trees" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="N" is_premium="N" aid="12478" money="0" sharing="0"/>
+	<prop id="rw_02kabar.swf" name="Combat knife" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12479" money="0" sharing="0" handstyle="stick"/>
+	<prop id="msp_ncc_gun_car15" name="CAR-15" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_car15_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12480" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_car15_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_car15_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_car15_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_car15_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m1a1" name="M1A1" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m1a1_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12485" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m1a1_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_m1a1_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_m1a1_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m1a1_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m1g" name="M1 Garand" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m1g_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12490" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m1g_ncc_gun_loop.swf" name="Keep shooting" enable="Y"/>
+		<state id="msp_ncc_gun_m1g_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m1g_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m2car" name="M2 Carbine" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m2car_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12494" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m2car_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_m2car_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_m2car_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m2car_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m14" name="M14" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m14_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12499" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m14_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_m14_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_m14_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m14_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m16vn" name="M16 Vietnam" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m16vn_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12504" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m16vn_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_m16vn_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_m16vn_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m16vn_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m60" name="M60" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m60_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12509" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m60_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_m60_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_m60_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m60_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m63" name="M63 Mk.23 Mod.0" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m63_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12514" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m63_ncc_gun_fire.swf" name="Automatic mode" enable="Y"/>
+		<state id="msp_ncc_gun_m63_ncc_gun_loop.swf" name="Burst mode" enable="Y"/>
+		<state id="msp_ncc_gun_m63_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m63_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_m191" name="1911" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_m191_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12519" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_m191_ncc_gun_loop.swf" name="Keep shooting" enable="Y"/>
+		<state id="msp_ncc_gun_m191_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_m191_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_ncc_gun_winche" name="Model 70 Sniper" holdable="1" placeable="1" wearable="0" facing="left" thumb="msp_ncc_gun_winche_ncc_gun_still.swf" enable="Y" is_premium="N" aid="12523" money="0" sharing="0" handstyle="gun">
+		<tag>gun</tag>
+		<state id="msp_ncc_gun_winche_ncc_gun_loop.swf" name="Keep shooting" enable="Y"/>
+		<state id="msp_ncc_gun_winche_ncc_gun_once.swf" name="Shoot once" enable="Y"/>
+		<state id="msp_ncc_gun_winche_ncc_gun_still.swf" name="Still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_rw_huey01" name="Chopper" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_rw_huey01_rw_huey_03.swf" enable="Y" is_premium="N" aid="12527" money="0" sharing="0">
+		<state id="msp_rw_huey01_rw_huey_01.swf" name="still" enable="Y"/>
+		<state id="msp_rw_huey01_rw_huey_02.swf" name="door" enable="Y"/>
+		<state id="msp_rw_huey01_rw_huey_03.swf" name="flying" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_rw_ship" name="Patrol boat" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_rw_ship_rw_ship_still.swf" enable="Y" is_premium="N" aid="12531" money="0" sharing="0">
+		<state id="msp_rw_ship_rw_ship_move.swf" name="move" enable="Y"/>
+		<state id="msp_rw_ship_rw_ship_still.swf" name="still" enable="Y" default="Y"/>
+	</prop>
+	<prop id="msp_rw_willly" name="Jeep" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_rw_willly_rw_willysjeep_off.swf" enable="Y" is_premium="N" aid="12534" money="0" sharing="0">
+		<state id="msp_rw_willly_rw_willysjeep_cover.swf" name="front" enable="Y"/>
+		<state id="msp_rw_willly_rw_willysjeep_off.swf" name="still" enable="Y" default="Y"/>
+		<state id="msp_rw_willly_rw_willysjeep_on.swf" name="driving" enable="Y"/>
+	</prop>
+	<prop id="rw_box.swf" name="Box" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12538" money="0" sharing="0"/>
+	<prop id="rw_sandbag.swf" name="Sand bag" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12539" money="0" sharing="0"/>
 	<prop id="msp_nccha_sp_mon" name="Monitor" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_nccha_sp_mon_nccha_elmonitor01.swf" enable="Y" is_premium="N" aid="11188" money="0" sharing="0">
 		<state id="msp_nccha_sp_mon_nccha_elmonitor01.swf" name="map" enable="Y" default="Y" />
 		<state id="msp_nccha_sp_mon_nccha_elmonitor02.swf" name="graph" enable="Y" />
